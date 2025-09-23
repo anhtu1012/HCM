@@ -1,11 +1,15 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import './index.scss';
-import { animateShot, calculateBarrelTip, calculateVelocity } from './gameLogic';
-import { GameArena, QuizModal, WinModal } from './components';
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import "./index.scss";
+import {
+  animateShot,
+  calculateBarrelTip,
+  calculateVelocity,
+} from "./gameLogic";
+import { GameArena, QuizModal, WinModal } from "./components";
 import { GiAntiAircraftGun } from "react-icons/gi";
-import confetti from 'canvas-confetti';
+import confetti from "canvas-confetti";
 // Types
 interface QuestionOption {
   key: string;
@@ -41,8 +45,8 @@ interface CastleBody {
 }
 
 // Constants
-const GROUND_Y = 420;
-const TANK_Y = 388;
+// const GROUND_Y = 420;
+// const TANK_Y = 388;
 const TANK_MIN_X = 70;
 const TANK_MAX_X = 500; // Increased range for more movement
 
@@ -55,7 +59,7 @@ const questionsSource: Question[] = [
       { key: "C", text: "Chỉ cải cách xã hội trong nước" },
       { key: "D", text: "Tách biệt hoàn toàn với Thế giới" },
     ],
-    correct: "B"
+    correct: "B",
   },
   {
     q: "2) Nếu chỉ giành độc lập chính trị mà thiếu độc lập kinh tế – văn hóa, hậu quả sẽ là gì?",
@@ -65,7 +69,7 @@ const questionsSource: Question[] = [
       { key: "C", text: "Nhân dân hoàn toàn hạnh phúc" },
       { key: "D", text: "Không thay đổi gì" },
     ],
-    correct: "B"
+    correct: "B",
   },
   {
     q: "3) Hồ Chí Minh đã tìm thấy con đường cứu nước đúng đắn từ đâu?",
@@ -73,7 +77,7 @@ const questionsSource: Question[] = [
       { key: "A", text: "Chủ nghĩa Mác - Lênin" },
       { key: "B", text: "Văn minh phương Tây" },
     ],
-    correct: "A"
+    correct: "A",
   },
   {
     q: "4) Trong thời toàn cầu hóa, độc lập dân tộc nên được hiểu như thế nào?",
@@ -83,7 +87,7 @@ const questionsSource: Question[] = [
       { key: "C", text: "Chỉ tập trung vào nội lục, bỏ qua quốc tế" },
       { key: "D", text: "Tự quyết, không lệ thuộc, nhưng vẫn hội nhập" },
     ],
-    correct: "D"
+    correct: "D",
   },
   {
     q: "5) Theo Hồ Chí Minh, độc lập dân tộc phải gắn liền với:",
@@ -92,7 +96,7 @@ const questionsSource: Question[] = [
       { key: "B", text: "Chủ nghĩa dân tộc thuần túy" },
       { key: "C", text: "Lệ thuộc vào cường quốc" },
     ],
-    correct: "A"
+    correct: "A",
   },
   {
     q: "6) Lực lượng nòng cốt trong cách mạng giải phóng dân tộc theo Hồ Chí Minh là:",
@@ -100,7 +104,7 @@ const questionsSource: Question[] = [
       { key: "A", text: "Trí thức" },
       { key: "B", text: "Công - nông" },
     ],
-    correct: "B"
+    correct: "B",
   },
   {
     q: "7) Độc lập dân tộc chỉ cần thoát khỏi sự cai trị chính trị.",
@@ -108,7 +112,7 @@ const questionsSource: Question[] = [
       { key: "A", text: "Đúng" },
       { key: "B", text: "Sai" },
     ],
-    correct: "B"
+    correct: "B",
   },
   {
     q: "8) Người trẻ hôm nay có thể làm gì để góp phần giữ vững độc lập dân tộc?",
@@ -117,7 +121,7 @@ const questionsSource: Question[] = [
       { key: "B", text: "Phụ thuộc vào sản phẩm ngoại nhập" },
       { key: "C", text: "Phụ thuộc sản phẩm nội địa" },
     ],
-    correct: "A"
+    correct: "A",
   },
 ];
 
@@ -145,14 +149,14 @@ const triggerFireworks = () => {
       ...defaults,
       particleCount,
       origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
-      colors: ['#fbbf24', '#34d399', '#60a5fa', '#f87171', '#a78bfa']
+      colors: ["#fbbf24", "#34d399", "#60a5fa", "#f87171", "#a78bfa"],
     });
-    
+
     confetti({
       ...defaults,
       particleCount,
       origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
-      colors: ['#fbbf24', '#34d399', '#60a5fa', '#f87171', '#a78bfa']
+      colors: ["#fbbf24", "#34d399", "#60a5fa", "#f87171", "#a78bfa"],
     });
   }, 250);
 };
@@ -178,7 +182,10 @@ const TankGame: React.FC = () => {
   const [showQuizModal, setShowQuizModal] = useState(false);
   const [showWinModal, setShowWinModal] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
-  const [feedback, setFeedback] = useState<{ message: string; type: 'correct' | 'incorrect' } | null>(null);
+  const [feedback, setFeedback] = useState<{
+    message: string;
+    type: "correct" | "incorrect";
+  } | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [showNextBtn, setShowNextBtn] = useState(false);
   const [showCloseBtn, setShowCloseBtn] = useState(false);
@@ -197,7 +204,7 @@ const TankGame: React.FC = () => {
     x: gameState.castleX - 75,
     y: gameState.castleY - 60,
     w: 150,
-    h: 120
+    h: 120,
   };
 
   // Utility functions
@@ -218,105 +225,111 @@ const TankGame: React.FC = () => {
   // Game control handlers
   const handleAngleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const angle = parseInt(e.target.value, 10);
-    setGameState(prev => ({ ...prev, angle }));
+    setGameState((prev) => ({ ...prev, angle }));
   };
 
   const handlePowerChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const power = parseInt(e.target.value, 10);
-    setGameState(prev => ({ ...prev, power }));
+    setGameState((prev) => ({ ...prev, power }));
   };
 
   const moveLeft = () => {
     if (gameState.isFlying || gameState.quizLocked) return;
-    setGameState(prev => ({
+    setGameState((prev) => ({
       ...prev,
-      tankX: Math.max(TANK_MIN_X, prev.tankX - 16)
+      tankX: Math.max(TANK_MIN_X, prev.tankX - 16),
     }));
   };
 
   const moveRight = () => {
     if (gameState.isFlying || gameState.quizLocked) return;
-    setGameState(prev => ({
+    setGameState((prev) => ({
       ...prev,
-      tankX: Math.min(TANK_MAX_X, prev.tankX + 16)
+      tankX: Math.min(TANK_MAX_X, prev.tankX + 16),
     }));
   };
 
   // Effects
   const spawnBoom = useCallback((x: number, y: number) => {
     if (!fxRef.current) return;
-    
-    const boom = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+
+    const boom = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "circle"
+    );
     boom.setAttribute("cx", x.toString());
     boom.setAttribute("cy", y.toString());
     boom.setAttribute("r", "2");
     boom.setAttribute("fill", "#fbbf24");
     boom.setAttribute("class", "boom");
     fxRef.current.appendChild(boom);
-    
+
     setTimeout(() => boom.remove(), 700);
   }, []);
 
   const spawnPuff = useCallback((x: number, y: number) => {
     if (!fxRef.current) return;
-    
+
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("transform", `translate(${x}, ${y})`);
     g.setAttribute("class", "puff");
-    
+
     const c1 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     c1.setAttribute("cx", "0");
     c1.setAttribute("cy", "0");
     c1.setAttribute("r", "8");
     c1.setAttribute("fill", "#fca5a5");
-    
+
     const c2 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     c2.setAttribute("cx", "-8");
     c2.setAttribute("cy", "-2");
     c2.setAttribute("r", "6");
     c2.setAttribute("fill", "#fecaca");
-    
+
     const c3 = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     c3.setAttribute("cx", "7");
     c3.setAttribute("cy", "-3");
     c3.setAttribute("r", "5");
     c3.setAttribute("fill", "#fde68a");
-    
+
     g.appendChild(c1);
     g.appendChild(c2);
     g.appendChild(c3);
     fxRef.current.appendChild(g);
-    
+
     setTimeout(() => g.remove(), 850);
   }, []);
 
   // Collision detection
-  const hitCastle = useCallback((x: number, y: number): boolean => {
-    return (
-      x >= castleBody.x &&
-      x <= castleBody.x + castleBody.w &&
-      y >= castleBody.y &&
-      y <= castleBody.y + castleBody.h
-    );
-  }, [castleBody]);
+  const hitCastle = useCallback(
+    (x: number, y: number): boolean => {
+      return (
+        x >= castleBody.x &&
+        x <= castleBody.x + castleBody.w &&
+        y >= castleBody.y &&
+        y <= castleBody.y + castleBody.h
+      );
+    },
+    [castleBody]
+  );
 
-  const endShot = useCallback((hit: boolean, x: number, y: number) => {
-    setGameState(prev => ({ ...prev, isFlying: false }));
-    
+  const endShot = useCallback((hit: boolean) => {
+    setGameState((prev) => ({ ...prev, isFlying: false }));
+
     // Hide projectile
     setTimeout(() => {
       if (projectileRef.current) {
-        projectileRef.current.setAttribute('opacity', '0');
-        projectileRef.current.setAttribute('cx', '-20');
-        projectileRef.current.setAttribute('cy', '-20');
+        projectileRef.current.setAttribute("opacity", "0");
+        projectileRef.current.setAttribute("cx", "-20");
+        projectileRef.current.setAttribute("cy", "-20");
       }
     }, 20);
 
     if (hit) {
       // Shake castle
       if (castleRef.current) {
-        castleRef.current.classList.add('wiggle');
-        setTimeout(() => castleRef.current?.classList.remove('wiggle'), 400);
+        castleRef.current.classList.add("wiggle");
+        setTimeout(() => castleRef.current?.classList.remove("wiggle"), 400);
       }
       openQuiz();
     }
@@ -329,14 +342,14 @@ const TankGame: React.FC = () => {
       setCurrentQuestion({
         q: "Bạn đã hết tim. Nhấn 'Chơi lại' để bắt đầu ván mới!",
         options: [],
-        correct: ""
+        correct: "",
       });
       setShowQuizModal(true);
       setShowCloseBtn(true);
       return;
     }
 
-    setGameState(prev => ({ ...prev, shots: prev.shots + 1 }));
+    setGameState((prev) => ({ ...prev, shots: prev.shots + 1 }));
 
     const startPos = calculateBarrelTip(gameState.tankX, gameState.angle);
     const velocity = calculateVelocity(gameState.angle, gameState.power);
@@ -351,7 +364,7 @@ const TankGame: React.FC = () => {
       spawnBoom,
       spawnPuff,
       endShot,
-      (isFlying) => setGameState(prev => ({ ...prev, isFlying }))
+      (isFlying) => setGameState((prev) => ({ ...prev, isFlying }))
     );
   };
 
@@ -362,12 +375,12 @@ const TankGame: React.FC = () => {
       currentQuestions = shuffle(questionsSource);
       setQuestions(currentQuestions);
     }
-    
+
     const nextQuestion = currentQuestions[0] || questionsSource[0];
     setCurrentQuestion(nextQuestion);
-    setQuestions(prev => prev.slice(1));
-    
-    setGameState(prev => ({ ...prev, quizLocked: true }));
+    setQuestions((prev) => prev.slice(1));
+
+    setGameState((prev) => ({ ...prev, quizLocked: true }));
     setShowQuizModal(true);
     setShowFeedback(false);
     setShowNextBtn(false);
@@ -376,7 +389,7 @@ const TankGame: React.FC = () => {
   };
 
   const closeQuiz = () => {
-    setGameState(prev => ({ ...prev, quizLocked: false }));
+    setGameState((prev) => ({ ...prev, quizLocked: false }));
     setShowQuizModal(false);
   };
 
@@ -384,28 +397,29 @@ const TankGame: React.FC = () => {
     if (!currentQuestion) return;
 
     const isCorrect = choice === currentQuestion.correct;
-    
+
     if (isCorrect) {
       const newHp = Math.max(0, gameState.castleHp - 20);
-      
-      setGameState(prev => ({
+
+      setGameState((prev) => ({
         ...prev,
         correct: prev.correct + 1,
-        castleHp: newHp
+        castleHp: newHp,
       }));
-      
+
       // Move aircraft to new position
-      const minX = 560, maxX = 820;
+      const minX = 560,
+        maxX = 820;
       const newX = Math.floor(minX + Math.random() * (maxX - minX));
-      setGameState(prev => ({ ...prev, castleX: newX }));
-      
+      setGameState((prev) => ({ ...prev, castleX: newX }));
+
       // Show feedback briefly then close
       setFeedback({
         message: "Chính xác! Máy bay đã chịu sát thương.",
-        type: 'correct'
+        type: "correct",
       });
       setShowFeedback(true);
-      
+
       // Check if aircraft is destroyed
       if (newHp <= 0) {
         // Trigger fireworks and show win modal
@@ -421,21 +435,22 @@ const TankGame: React.FC = () => {
         }, 1500);
       }
     } else {
-      setGameState(prev => ({
+      setGameState((prev) => ({
         ...prev,
         wrong: prev.wrong + 1,
-        lives: Math.max(0, prev.lives - 1)
+        lives: Math.max(0, prev.lives - 1),
       }));
-      
+
       setFeedback({
-        message: gameState.lives > 1 
-          ? "Chưa đúng rồi. Bạn bị mất 1 tim. Cố lên!" 
-          : "Bạn đã hết tim! Hãy chơi lại để tiếp tục.",
-        type: 'incorrect'
+        message:
+          gameState.lives > 1
+            ? "Chưa đúng rồi. Bạn bị mất 1 tim. Cố lên!"
+            : "Bạn đã hết tim! Hãy chơi lại để tiếp tục.",
+        type: "incorrect",
       });
-      
+
       setShowFeedback(true);
-      
+
       // Check lose condition and close quiz
       if (gameState.lives <= 1) {
         // Game over - show close button
@@ -469,29 +484,35 @@ const TankGame: React.FC = () => {
       castleX: 740,
       castleY: 300,
     });
-    
+
     setQuestions(shuffle(questionsSource));
     setShowQuizModal(false);
     setShowWinModal(false);
-    
+
     if (projectileRef.current) {
-      projectileRef.current.setAttribute('opacity', '0');
-      projectileRef.current.setAttribute('cx', '-20');
-      projectileRef.current.setAttribute('cy', '-20');
+      projectileRef.current.setAttribute("opacity", "0");
+      projectileRef.current.setAttribute("cx", "-20");
+      projectileRef.current.setAttribute("cy", "-20");
     }
   };
 
   // Update barrel rotation
   useEffect(() => {
     if (barrelRef.current) {
-      barrelRef.current.setAttribute('transform', `rotate(${-gameState.angle})`);
+      barrelRef.current.setAttribute(
+        "transform",
+        `rotate(${-gameState.angle})`
+      );
     }
   }, [gameState.angle]);
 
   // Update castle position
   useEffect(() => {
     if (castleRef.current) {
-      castleRef.current.setAttribute('transform', `translate(${gameState.castleX}, ${gameState.castleY})`);
+      castleRef.current.setAttribute(
+        "transform",
+        `translate(${gameState.castleX}, ${gameState.castleY})`
+      );
     }
   }, [gameState.castleX, gameState.castleY]);
 
@@ -499,46 +520,46 @@ const TankGame: React.FC = () => {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (gameState.quizLocked) return;
-      
+
       switch (e.key) {
-        case 'ArrowLeft':
+        case "ArrowLeft":
           e.preventDefault();
           moveLeft();
           break;
-        case 'ArrowRight':
+        case "ArrowRight":
           e.preventDefault();
           moveRight();
           break;
-        case ' ':
+        case " ":
           e.preventDefault();
           fire();
           break;
-        case 'ArrowUp':
+        case "ArrowUp":
           e.preventDefault();
-          setGameState(prev => ({
+          setGameState((prev) => ({
             ...prev,
-            angle: Math.min(80, prev.angle + 2)
+            angle: Math.min(80, prev.angle + 2),
           }));
           break;
-        case 'ArrowDown':
+        case "ArrowDown":
           e.preventDefault();
-          setGameState(prev => ({
+          setGameState((prev) => ({
             ...prev,
-            angle: Math.max(10, prev.angle - 2)
+            angle: Math.max(10, prev.angle - 2),
           }));
           break;
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [gameState.quizLocked, gameState.angle]);
 
   // HP bar color
   const getHpBarClass = () => {
-    if (gameState.castleHp > 60) return 'high';
-    if (gameState.castleHp > 30) return 'medium';
-    return 'low';
+    if (gameState.castleHp > 60) return "high";
+    if (gameState.castleHp > 30) return "medium";
+    return "low";
   };
 
   return (
@@ -547,8 +568,13 @@ const TankGame: React.FC = () => {
         {/* Header */}
         <header className="header">
           <div>
-            <h1 style={{fontSize:'50px', fontWeight:"bold"}}>Xe Tăng Bắn Máy Bay – Trắc nghiệm Hồ Chí Minh</h1>
-            <p>Bắn trúng máy bay chiến đấu để mở câu hỏi. Trả lời đúng hoặc sai rồi bắn tiếp! Hạ gục máy bay để chiến thắng.</p>
+            <h1 style={{ fontSize: "50px", fontWeight: "bold" }}>
+              Xe Tăng Bắn Máy Bay – Trắc nghiệm Hồ Chí Minh
+            </h1>
+            <p>
+              Bắn trúng máy bay chiến đấu để mở câu hỏi. Trả lời đúng hoặc sai
+              rồi bắn tiếp! Hạ gục máy bay để chiến thắng.
+            </p>
           </div>
           <div className="goal-badge">
             <div className="badge">Mục tiêu: Hạ máy bay bằng kiến thức</div>
@@ -587,23 +613,33 @@ const TankGame: React.FC = () => {
                 />
               </div>
               <div className="button-group">
-                <button onClick={moveLeft} disabled={gameState.isFlying || gameState.quizLocked}>
+                <button
+                  onClick={moveLeft}
+                  disabled={gameState.isFlying || gameState.quizLocked}
+                >
                   <span aria-hidden>⬅️</span>
                   <span>Trái</span>
                 </button>
-                <button onClick={moveRight} disabled={gameState.isFlying || gameState.quizLocked}>
+                <button
+                  onClick={moveRight}
+                  disabled={gameState.isFlying || gameState.quizLocked}
+                >
                   <span>Phải</span>
                   <span aria-hidden>➡️</span>
                 </button>
               </div>
               <div className="button-group">
-                <button 
-                  className="fire-btn" 
+                <button
+                  className="fire-btn"
                   onClick={fire}
                   disabled={gameState.isFlying || gameState.quizLocked}
-                > <span>Bắn</span>
-                  <span aria-hidden> <GiAntiAircraftGun size={20} /></span>
-                 
+                >
+                  {" "}
+                  <span>Bắn</span>
+                  <span aria-hidden>
+                    {" "}
+                    <GiAntiAircraftGun size={20} />
+                  </span>
                 </button>
                 <button onClick={resetGame}>
                   <span aria-hidden>↻</span>
@@ -623,7 +659,7 @@ const TankGame: React.FC = () => {
                   <span>{gameState.castleHp}%</span>
                 </div>
                 <div className="hp-bar">
-                  <div 
+                  <div
                     className={`hp-fill ${getHpBarClass()}`}
                     style={{ width: `${gameState.castleHp}%` }}
                   />
@@ -636,14 +672,20 @@ const TankGame: React.FC = () => {
                 </div>
                 <div className="hearts">
                   {Array.from({ length: 3 }, (_, i) => (
-                    <span key={i}>{i < gameState.lives ? '❤️' : '🖤'}</span>
+                    <span key={i}>{i < gameState.lives ? "❤️" : "🖤"}</span>
                   ))}
                 </div>
               </div>
               <div className="stats">
-                <span>Đã bắn: <b>{gameState.shots}</b></span>
-                <span>Đúng: <b>{gameState.correct}</b></span>
-                <span>Sai: <b>{gameState.wrong}</b></span>
+                <span>
+                  Đã bắn: <b>{gameState.shots}</b>
+                </span>
+                <span>
+                  Đúng: <b>{gameState.correct}</b>
+                </span>
+                <span>
+                  Sai: <b>{gameState.wrong}</b>
+                </span>
               </div>
             </div>
           </div>
