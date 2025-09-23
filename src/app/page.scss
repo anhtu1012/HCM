@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "@/styles/variables" as vars;
 @import "aos/dist/aos.css";
 
@@ -1029,7 +1030,7 @@
         margin: auto;
 
         &:hover {
-          background: darken(vars.$secondary-color, 10%);
+          background: color.adjust(vars.$secondary-color, $lightness: -10%);
         }
 
         &::after {
