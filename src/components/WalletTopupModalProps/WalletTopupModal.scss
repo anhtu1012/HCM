@@ -1,0 +1,156 @@
+@use "@/styles/variables" as vars;
+
+.wallet-topup-modal {
+  .ant-modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+    .ant-modal-title {
+      font-size: 18px;
+      color: vars.$primary-color;
+      font-weight: 600;
+    }
+  }
+
+  .topup-form {
+    padding: 16px 0;
+
+    .quick-amount-section {
+      .quick-amount-buttons {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .amount-button {
+          min-width: 100px;
+          height: 40px;
+          border-radius: 8px;
+          transition: all 0.3s ease;
+
+          &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+          }
+
+          &.ant-btn-primary {
+            background-color: vars.$primary-color;
+            border-color: vars.$primary-color;
+
+            &:hover {
+              background-color: vars.$primary-color-dark;
+              border-color: vars.$primary-color-dark;
+            }
+          }
+        }
+      }
+    }
+
+    .custom-amount-section {
+      .amount-input {
+        height: 40px;
+        border-radius: 8px;
+
+        &:hover,
+        &:focus {
+          border-color: vars.$primary-color;
+        }
+      }
+    }
+
+    .payment-method-section {
+      .payment-methods {
+        width: 100%;
+
+        .payment-options {
+          width: 100%;
+
+          .payment-option {
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+            width: 100%;
+            border: 1px solid transparent;
+
+            &:hover {
+              background-color: rgba(vars.$primary-color, 0.05);
+              border-color: rgba(vars.$primary-color, 0.2);
+            }
+
+            .payment-icon {
+              font-size: 18px;
+              color: vars.$primary-color;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .ant-form-item-label > label {
+      color: #333;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    .topup-divider {
+      margin: 16px 0;
+    }
+
+    .action-buttons {
+      margin-bottom: 0;
+
+      .cancel-button {
+        min-width: 100px;
+        height: 38px;
+        border-radius: 8px;
+      }
+
+      .confirm-button {
+        min-width: 150px;
+        height: 38px;
+        border-radius: 8px;
+        background-color: vars.$primary-color;
+        border-color: vars.$primary-color;
+        font-weight: 500;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+
+        &:hover {
+          background-color: vars.$primary-color-dark;
+          border-color: vars.$primary-color-dark;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .wallet-topup-modal {
+    max-width: 90%;
+    margin: 0 auto;
+
+    .quick-amount-section {
+      .quick-amount-buttons {
+        .amount-button {
+          min-width: calc(50% - 5px);
+          flex: 1 0 calc(50% - 5px);
+        }
+      }
+    }
+
+    .payment-method-section {
+      .payment-options {
+        flex-direction: column;
+      }
+    }
+  }
+}

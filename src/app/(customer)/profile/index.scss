@@ -1,0 +1,149 @@
+@use "@/styles/variables" as vars;
+
+// UserInfo Component Styles
+.user-info-section {
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .user-info-display {
+    .info-item {
+      margin-bottom: 16px;
+
+      .info-label {
+        font-weight: bold;
+        margin-right: 8px;
+        color: #666;
+      }
+
+      .info-value {
+        color: #333;
+      }
+    }
+  }
+
+  .edit-form {
+    max-width: 100%;
+  }
+}
+
+// BookingHistory Component Styles
+.booking-history-section {
+  .booking-table {
+    margin-top: 16px;
+  }
+}
+
+// WalletSection Component Styles
+.wallet-section {
+  .balance-card {
+    background: linear-gradient(
+      135deg,
+      vars.$primary-color,
+      darken(vars.$primary-color, 15%)
+    );
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .wallet-icon {
+      font-size: 48px;
+      margin-right: 24px;
+    }
+
+    .balance-info {
+      .ant-typography {
+        color: white;
+      }
+
+      button {
+        margin-top: 16px;
+        background: rgba(255, 255, 255, 0.2);
+        border-color: white;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+
+  .tips-card {
+    height: 100%;
+
+    .wallet-features {
+      margin-top: 16px;
+
+      .feature-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 16px;
+
+        .feature-icon {
+          font-size: 24px;
+          color: vars.$primary-color;
+          margin-right: 16px;
+          margin-top: 3px;
+        }
+
+        .feature-text {
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            margin-bottom: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .transaction-card {
+    margin-top: 16px;
+  }
+}
+
+// Common styles for all profile components
+.ant-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  .ant-card-head {
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+  .user-info-display {
+    .info-item {
+      margin-bottom: 24px;
+
+      .info-label,
+      .info-value {
+        display: block;
+      }
+
+      .info-label {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .wallet-section {
+    .balance-card {
+      flex-direction: column;
+      text-align: center;
+
+      .wallet-icon {
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

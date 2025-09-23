@@ -1,0 +1,37 @@
+.clerk-auth-buttons {
+  display: flex;
+  align-items: center;
+
+  :global(.cl-rootBox) {
+    margin: 0 4px;
+  }
+
+  :global(.cl-button) {
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  :global(.cl-signInButton .cl-button) {
+    background-color: #1890ff !important;
+    color: white !important;
+
+    &:hover {
+      background-color: #40a9ff !important;
+      transform: translateY(-2px) !important;
+    }
+  }
+
+  :global(.cl-signUpButton .cl-button) {
+    background-color: #52c41a !important;
+    color: white !important;
+    margin-left: 8px !important;
+
+    &:hover {
+      background-color: #73d13d !important;
+      transform: translateY(-2px) !important;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@use "@/styles/variables" as vars;
+
+.select {
+  display: flex;
+  .ant-select-selector {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0px;
+  }
+  .ant-select-selection-item {
+    text-align: right;
+  }
+  .ant-select-arrow {
+    color: black !important;
+  }
+  span {
+    color: black;
+  }
+}
+.custom-dropdown {
+  .ant-select-item-option {
+    color: black; // Màu chữ mặc định cho các item
+
+    &:hover {
+      color: black; // Màu chữ khi hover
+      background-color: #e8f7fd !important; // Đổi màu nền khi hover
+    }
+  }
+}
+html.dark {
+  .custom-dropdown {
+    .ant-select-item-option {
+      color: #fff; // Màu chữ sáng cho các item
+
+      &:hover {
+        color: #fff; // Màu chữ khi hover
+        background-color: #444 !important; // Đổi màu nền khi hover
+      }
+    }
+  }
+}

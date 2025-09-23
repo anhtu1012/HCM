@@ -1,0 +1,1043 @@
+{
+  "Profile": {
+    "changepass": "Thay đổi mật khẩu"
+  },
+  "Gioi_thieu": {
+    "pageBanner": {
+      "title": "Giới thiệu",
+      "subtitle": "Đồng hành cùng bạn trên hành trình sự nghiệp"
+    },
+    "PATHWAY_Story": "Câu chuyện của chúng tôi",
+    "PATHWAY_Story_Description": "PATHWAY được thành lập vào năm 2018 bởi những chuyên gia nhân sự hàng đầu với sứ mệnh giúp người lao động Việt Nam định hình và phát triển sự nghiệp bền vững trong thời đại số.",
+    "PATHWAY_Story_Detail": "Từ những buổi tư vấn đầu tiên, chúng tôi nhận thấy rằng nhiều người tài năng đang gặp khó khăn trong việc thể hiện giá trị bản thân với nhà tuyển dụng và phát triển lộ trình nghề nghiệp rõ ràng.",
+    "PATHWAY_Story_Mission": "Trong 5 năm qua, PATHWAY đã đồng hành cùng hơn 5000 khách hàng từ sinh viên mới ra trường đến quản lý cấp cao, giúp họ đạt được mục tiêu nghề nghiệp và xây dựng sự nghiệp bền vững.",
+    "PATHWAY_Story_Button": "Tìm hiểu thêm về Dịch vụ",
+    "storySection": {
+      "imageAlt": "Hình ảnh minh họa câu chuyện PATHWAY"
+    },
+    "missionVisionSection": {
+      "title": "Sứ mệnh và tầm nhìn",
+      "description": "",
+      "missionCard": {
+        "title": "Sứ mệnh",
+        "description": "“Pathway CV hỗ trợ người dùng tạo, quản lý và nâng cấp hồ sơ cá nhân phục vụ định hướng nghề nghiệp.”",
+        "listItem1": "“Tạo, quản lý và nâng cấp hồ sơ” : Không chỉ dừng lại ở việc cung cấp mẫu CV, dự án hướng đến một hệ sinh thái quản trị hồ sơ cá nhân dài hạn — cho phép người dùng cập nhật, điều chỉnh theo từng giai đoạn nghề nghiệp.",
+        "listItem2": "“Phục vụ định hướng nghề nghiệp” : Không đơn thuần là viết CV để xin việc, mà là hỗ trợ người dùng nhìn rõ bản thân, định hình con đường sự nghiệp và từ đó thể hiện nó một cách chiến lược.",
+        "listItem3": "Không đơn thuần là một công cụ tạo CV, mà là một đối tác chiến lược giúp người dùng phản ánh hành trình phát triển bản thân qua hồ sơ, với mục tiêu mang tính giáo dục và khai phóng."
+      },
+      "visionCard": {
+        "title": "Tầm nhìn",
+        "description": "“Trở thành nền tảng cá nhân hóa hồ sơ nghề nghiệp hàng đầu tại Việt Nam dành cho người trẻ và người đi làm.”",
+        "listItem1": "“Nền tảng cá nhân hóa hồ sơ nghề nghiệp” : Không phải sản phẩm đại trà, mà tập trung vào việc tùy biến theo hành trình, mục tiêu, ngành nghề của từng người dùng.",
+        "listItem2": "“Hàng đầu tại Việt Nam” : Tham vọng chiếm lĩnh vị trí dẫn đầu trong thị trường ngách này – đòi hỏi không chỉ công nghệ tốt, mà còn hiểu rõ người dùng Việt.",
+        "listItem3": "“Người trẻ và người đi làm” : Định rõ nhóm mục tiêu: từ sinh viên đến người đã có kinh nghiệm – vốn có nhu cầu rất khác nhau nhưng đều cần được hỗ trợ chuyên sâu, phù hợp với xu hướng phát triển cá nhân."
+      }
+    },
+    "coreValuesSection": {
+      "title": "Giá trị cốt lõi",
+      "description": ""
+    },
+    "coreValues": {
+      "expertise": {
+        "title": "Chuyên môn",
+        "description": "Đội ngũ chuyên gia giàu kinh nghiệm trong tuyển dụng và phát triển nghề nghiệp, mang lại góc nhìn thực tiễn và định hướng rõ ràng cho khách hàng."
+      },
+      "quality": {
+        "title": "Chất lượng",
+        "description": "Cam kết mang đến dịch vụ có chất lượng cao, được cá nhân hóa và tối ưu hóa theo mục tiêu nghề nghiệp của từng người dùng."
+      },
+      "empathy": {
+        "title": "Đồng cảm",
+        "description": "Thấu hiểu những khó khăn trong hành trình nghề nghiệp và đồng hành với khách hàng qua các lời khuyên thiết thực, chân thành."
+      },
+      "results": {
+        "title": "Kết quả",
+        "description": "Lấy kết quả làm trung tâm, Pathway tập trung vào mục tiêu cụ thể, giúp khách hàng đạt được thành tựu rõ ràng và bền vững trong sự nghiệp."
+      }
+    },
+    "milestonesSection": {
+      "title": "Hành trình phát triển",
+      "description": ""
+    },
+    "timelineItems": {
+      "stage1": {
+        "label": "2018 – 2019",
+        "title": "Xây dựng nền móng & phát triển dịch vụ lõi",
+        "description": ""
+      },
+      "stage2": {
+        "label": "2020 – 2021",
+        "title": "Chuyển đổi số & mở rộng thị trường địa lý",
+        "description": ""
+      },
+      "stage3": {
+        "label": "2022 – 2023",
+        "title": "Khẳng định vị thế bằng quy mô & nâng tầm giá trị thông qua đào tạo",
+        "description": ""
+      }
+    },
+    "statsSection": {
+      "clients": {
+        "title": "Khách hàng"
+      },
+      "experts": {
+        "title": "Chuyên gia"
+      },
+      "satisfaction": {
+        "title": "Tỷ lệ hài lòng"
+      },
+      "partners": {
+        "title": "Đối tác doanh nghiệp"
+      }
+    },
+    "teamSection": {
+      "title": "Đội ngũ chuyên gia – Nền tảng của sự khác biệt tại PATHWAY",
+      "description": "Đội ngũ PATHWAY quy tụ những chuyên gia dày dạn kinh nghiệm, có chuyên môn sâu và sự thấu hiểu thị trường tuyển dụng cũng như hành trình phát triển nghề nghiệp của người Việt. Mỗi cá nhân đều đóng vai trò chiến lược trong hệ sinh thái dịch vụ toàn diện của PATHWAY.",
+      "social": {
+        "linkedInAria": "Hồ sơ LinkedIn",
+        "emailAria": "Gửi email"
+      }
+    },
+    "teamMembers": {
+      "member1": {
+        "name": "Nguyễn Thị Minh",
+        "position": "Founder & CEO",
+        "bio": "Với hơn 15 năm kinh nghiệm trong lĩnh vực tuyển dụng và đào tạo nhân lực, chị Minh là người sáng lập và điều hành chính, người truyền cảm hứng, xây dựng văn hóa doanh nghiệp nhân bản, thực tế và định hướng kết quả, bảo chứng cho tầm nhìn dài hạn và chất lượng dịch vụ."
+      },
+      "member2": {
+        "name": "Trần Đức Anh",
+        "position": "Trưởng nhóm tư vấn nghề nghiệp",
+        "bio": "Từng là Advisor tại các công ty đa quốc gia, anh Đức Anh mang đến góc nhìn hiện đại, logic trong xây dựng lộ trình sự nghiệp, áp dụng phương pháp coaching giúp khách hàng hiểu sâu về bản thân và tự tin hơn trong định hướng dài hạn."
+      },
+      "member3": {
+        "name": "Lã Hoàng Mai",
+        "position": "Chuyên gia về CV và LinkedIn",
+        "bio": "Chị Hoàng Mai trực tiếp giúp khách hàng nâng cấp hồ sơ cá nhân để chinh phục nhà tuyển dụng. Kỹ năng tinh chỉnh nội dung sắc sảo của chị đã giúp tăng gấp đôi tỷ lệ phản hồi phỏng vấn của khách hàng."
+      },
+      "member4": {
+        "name": "Phạm Văn Tuấn",
+        "position": "Huấn luyện viên phỏng vấn",
+        "bio": "Từng đảm nhận vị trí quản lý tuyển dụng tại các tập đoàn Fortune 500, anh Tuấn huấn luyện khách hàng một cách trực diện và thực tiễn với góc nhìn từ phía nhà tuyển dụng, giúp họ vượt qua những vòng tuyển chọn khó khăn với sự chuẩn bị vững vàng và tâm thế tự tin."
+      }
+    },
+    "ourPartnersSection": {
+      "title": "Đối tác của chúng tôi",
+      "description": "Một trong những minh chứng rõ ràng nhất cho uy tín và năng lực của PATHWAY chính là hệ thống đối tác mà tổ chức này hợp tác, bao gồm các “ông lớn” công nghệ toàn cầu.",
+      "partnerLogos": [
+        {
+          "alt": "Logo Google"
+        },
+        {
+          "alt": "Logo Apple"
+        },
+        {
+          "alt": "Logo Microsoft"
+        },
+        {
+          "alt": "Logo Amazon"
+        },
+        {
+          "alt": "Logo Netflix"
+        },
+        {
+          "alt": "Logo Facebook"
+        },
+        {
+          "alt": "Logo LinkedIn"
+        }
+      ]
+    },
+    "achievementsSection": {
+      "title": "Thành tựu",
+      "description": "",
+      "achievement1": {
+        "title": "Top 10 đơn vị tư vấn nghề nghiệp 2022",
+        "description": "Được bình chọn bởi Hiệp hội Doanh nghiệp TP.HCM, minh chứng cho chất lượng dịch vụ, uy tín thị trường và hiệu quả thực tế trong việc hỗ trợ định hướng nghề nghiệp cho người trẻ."
+      },
+      "achievement2": {
+        "title": "Startup tiêu biểu 2021 – Giải thưởng Startup Việt",
+        "description": "Giải thưởng từ VnExpress khẳng định PATHWAY không chỉ giỏi chuyên môn mà còn sở hữu tư duy khởi nghiệp đổi mới sáng tạo, với mô hình kinh doanh có giá trị xã hội và tiềm năng mở rộng."
+      },
+      "achievement3": {
+        "title": "Doanh nghiệp vì cộng đồng 2023",
+        "description": "Danh hiệu này nhấn mạnh trách nhiệm xã hội của PATHWAY qua việc tổ chức đào tạo miễn phí cho sinh viên, thể hiện tầm nhìn phát triển bền vững."
+      }
+    },
+    "communityProgramsSection": {
+      "title": "Chương trình cộng đồng",
+      "description": "",
+      "program1": {
+        "imageAlt": "Hình ảnh workshop cho sinh viên",
+        "title": "Workshop cho sinh viên",
+        "description": "Tổ chức hơn 50 buổi workshop miễn phí tại các trường đại học trên toàn quốc, phổ cập kiến thức nghề nghiệp, chuẩn bị kỹ năng mềm và tư duy cần thiết cho sinh viên trước khi bước ra thị trường lao động."
+      },
+      "program2": {
+        "imageAlt": "Hình ảnh chương trình học bổng PATHWAY",
+        "title": "Học bổng PATHWAY",
+        "description": "Trao 20 suất học bổng mỗi năm cho sinh viên có hoàn cảnh khó khăn, bao gồm khóa đào tạo và cơ hội thực tập tại đơn vị đối tác, mở ra cánh cửa nghề nghiệp."
+      },
+      "program3": {
+        "imageAlt": "Hình ảnh chương trình hướng nghiệp vùng xa",
+        "title": "Hướng nghiệp vùng xa",
+        "description": "Tư vấn hướng nghiệp miễn phí cho học sinh tại các vùng sâu, vùng xa, thể hiện tinh thần khai sáng và công bằng cơ hội, đảm bảo không ai bị bỏ lại phía sau trong hành trình khám phá và xây dựng tương lai."
+      }
+    },
+    "ctaSection": {
+      "title": "Tham gia cùng PATHWAY",
+      "description": "Cho dù bạn đang tìm kiếm hướng đi mới cho sự nghiệp hay muốn nâng cao vị thế chuyên môn, đội ngũ PATHWAY luôn sẵn sàng đồng hành và hỗ trợ bạn.",
+      "primaryButton": "Đặt lịch tư vấn",
+      "secondaryButton": "Liên hệ chúng tôi"
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "mainTitle": "PATHWAY",
+      "subTitle": "Đánh giá CV, Chiến lược tìm việc, Tư vấn nghề nghiệp",
+      "tagline": "Hơn 1000+ Chuyên gia đã thăng tiến trong sự nghiệp nhờ sự hỗ trợ của chúng tôi",
+      "button1_text": "Đặt lịch tư vấn",
+      "button2_text": "Xem câu chuyện thành công"
+    },
+    "introduction": {
+      "title": "Tư tưởng Hồ Chí Minh về độc lập dân tộc",
+      "paragraph": "Trong lịch sử dân tộc, <strong>khát vọng độc lập luôn cháy bỏng</strong>. Các sĩ phu, trí thức yêu nước cuối thế kỷ XIX – đầu XX như <strong>Phan Bội Châu, Phan Châu Trinh</strong> đều có những con đường tìm kiếm: người dựa vào ngoại bang, người thiên về cải cách. Hồ Chí Minh cũng khẳng định độc lập là tối thượng, nhưng cách Người tiếp cận vừa kế thừa truyền thống, vừa sáng tạo mang tính thời đại.",
+      "context_title": "Bối cảnh lịch sử",
+      "context_description": "Cuối thế kỷ XIX - đầu thế kỷ XX, đất nước ta rơi vào tình trạng thuộc địa của Pháp. Các sĩ phu yêu nước đã tìm kiếm nhiều con đường khác nhau để giải phóng dân tộc khỏi ách thống trị của thực dân.",
+      "question_title": "Câu hỏi nghiên cứu",
+      "research_question": "Tư tưởng Hồ Chí Minh về độc lập dân tộc có gì khác biệt và sáng tạo so với các tiền nhân? Giá trị nào của tư tưởng này vẫn còn ý nghĩa trong thời đại ngày nay?",
+      "card1_alt": "Sứ mệnh Pathway",
+      "card1_title": "Sứ mệnh",
+      "card1_description": "Trao quyền cho các chuyên gia với công cụ, chiến lược và sự tự tin cần thiết để nổi bật trong thị trường việc làm cạnh tranh và đạt được mục tiêu nghề nghiệp của họ.",
+      "card2_alt": "Tầm nhìn Pathway",
+      "card2_title": "Tầm nhìn",
+      "card2_description": "Trở thành đơn vị dịch vụ nghề nghiệp hàng đầu, thay đổi cách mọi người tiếp cận tìm kiếm việc làm, tạo ra một thế giới nơi mọi người đều có thể phát huy hết tiềm năng nghề nghiệp của mình.",
+      "card3_alt": "Phương pháp Pathway",
+      "card3_title": "Phương pháp",
+      "card3_description": "Chúng tôi tin vào các giải pháp tùy chỉnh nhấn mạnh giá trị độc đáo của mỗi cá nhân. Chiến lược dựa trên dữ liệu và tư vấn cá nhân hóa tạo ra những bước đột phá sự nghiệp có ý nghĩa."
+    },
+    "timelineSection": {
+      "title": "Dòng Thời Gian Tư Tưởng Hồ Chí Minh",
+      "subtitle": "Hành trình từ bối cảnh lịch sử đến giá trị hiện đại",
+      "timeline1": {
+        "title": "Bối Cảnh Lịch Sử & Các Nhà Yêu Nước Tiền Bối",
+        "description": "Thực dân Pháp xâm lược, các sĩ phu tìm đường cứu nước với những hạn chế."
+      },
+      "timeline2": {
+        "title": "Hồ Chí Minh Tìm Đường Cứu Nước",
+        "description": "Hành trình du học và chọn con đường cách mạng vô sản."
+      },
+      "timeline3": {
+        "title": "Thành Lập Đảng Cộng Sản Việt Nam",
+        "description": "Điểm mới: Kết hợp giải phóng dân tộc với giải phóng giai cấp."
+      },
+      "timeline4": {
+        "title": "Cách Mạng Tháng Tám & Tuyên Ngôn Độc Lập",
+        "description": "Thắng lợi lịch sử, thành lập nhà nước dân chủ."
+      },
+      "timeline5": {
+        "title": "Kháng Chiến & Giá Trị Hiện Đại",
+        "description": "Giải phóng dân tộc và ứng dụng tư tưởng HCM trong thời đại mới."
+      }
+    },
+    "comparisonSection": {
+      "title": "So sánh tư tưởng độc lập dân tộc",
+      "criteria": "Tiêu chí so sánh",
+      "predecessors": "Các nhà yêu nước tiền bối",
+      "hochiminh": "Chủ tịch Hồ Chí Minh",
+      "independence_goal": "Mục tiêu độc lập",
+      "predecessors_independence": "Khát vọng độc lập nhưng thường giới hạn ở việc giành lại chủ quyền chính trị, chưa gắn kết sâu sắc với hạnh phúc toàn dân",
+      "hcm_independence": "Độc lập dân tộc phải gắn liền với hạnh phúc của nhân dân. Độc lập phải thật sự, hoàn toàn và triệt để, bao gồm cả thống nhất Tổ quốc",
+      "path_method": "Con đường cứu nước",
+      "predecessors_path": "Phan Bội Châu: Dựa vào ngoại bang, bạo động vũ trang. Phan Châu Trinh: Cải cách, khai dân trí, dựa vào sự hỗ trợ của Pháp",
+      "hcm_path": "Con đường cách mạng vô sản thông qua lý luận chủ nghĩa Mác-Lênin. Liên kết giải phóng dân tộc với giải phóng giai cấp và xã hội",
+      "revolutionary_force": "Lực lượng cách mạng",
+      "predecessors_force": "Giới sĩ phu, tầng lớp trên, chưa phát huy được sức mạnh đại đoàn kết toàn dân tộc",
+      "hcm_force": "Dựa vào sức mạnh đại đoàn kết toàn dân tộc, với liên minh công nông làm nòng cốt, dưới sự lãnh đạo của Đảng Cộng sản",
+      "struggle_method": "Phương pháp đấu tranh",
+      "predecessors_struggle": "Thường thiếu sự kết hợp giữa các hình thức đấu tranh một cách bài bản, toàn diện",
+      "hcm_struggle": "Kết hợp chặt chẽ giữa đấu tranh chính trị và vũ trang, xây dựng lực lượng vũ trang cách mạng của nhân dân",
+      "international_relations": "Quan hệ với quốc tế",
+      "predecessors_international": "Thường dựa vào một quốc gia cụ thể hoặc chưa có tầm nhìn quốc tế rõ ràng",
+      "hcm_international": "Gắn cách mạng Việt Nam với cách mạng thế giới, chủ động tranh thủ sự giúp đỡ của các lực lượng tiến bộ quốc tế"
+    },
+    "conclusionSection": {
+      "title": "Giá trị thời đại và thông điệp kết thúc",
+      "paragraph1": "Tư tưởng Hồ Chí Minh về độc lập dân tộc không chỉ có ý nghĩa lịch sử mà còn mang giá trị thời đại sâu sắc. Sự kế thừa tinh thần yêu nước truyền thống cùng với sự sáng tạo trong việc lựa chọn con đường cách mạng vô sản đã tạo nên một hệ thống tư tưởng hoàn chỉnh và khoa học.",
+      "paragraph2": "Điều làm nên sự khác biệt của Hồ Chí Minh so với các tiền nhân chính là việc Người không chỉ đặt mục tiêu giành độc lập mà còn gắn liền với hạnh phúc của nhân dân, xây dựng một xã hội công bằng, dân chủ và văn minh.",
+      "modern_values_title": "Giá trị đến hôm nay",
+      "value1": "Độc lập gắn với tự chủ: Khẳng định chủ quyền trong bối cảnh toàn cầu hóa",
+      "value2": "Phát triển bền vững: Hài hòa kinh tế - xã hội - môi trường",
+      "value3": "Hội nhập quốc tế: Kết hợp sức mạnh dân tộc với sức mạnh thời đại",
+      "value4": "Dân chủ xã hội chủ nghĩa: Quyền lực thực sự thuộc về nhân dân",
+      "image_alt": "Biểu tượng tư tưởng Hồ Chí Minh thời đại"
+    },
+    "hcmIdeologySection": {
+      "title": "Nội dung cốt lõi tư tưởng Hồ Chí Minh",
+      "description": "Tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện và sâu sắc về cách mạng Việt Nam, là sự vận dụng sáng tạo chủ nghĩa Mác-Lênin vào điều kiện thực tiễn đất nước, đồng thời kế thừa truyền thống dân tộc và tinh hoa văn hóa nhân loại.",
+      "item1_alt": "Độc lập dân tộc",
+      "item1_title": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "item1_text": "Độc lập phải thực sự, triệt để, gắn với hạnh phúc của nhân dân và con đường cách mạng vô sản.",
+      "item2_alt": "Đảng và Nhà nước",
+      "item2_title": "Đảng Cộng sản và Nhà nước của dân, do dân, vì dân",
+      "item2_text": "Đảng phải trong sạch, vững mạnh, có đạo đức cách mạng; nhà nước dân chủ, quyền lực thuộc về nhân dân.",
+      "item3_alt": "Đại đoàn kết",
+      "item3_title": "Đại đoàn kết dân tộc và đoàn kết quốc tế",
+      "item3_text": "Đại đoàn kết là chiến lược cách mạng, là sức mạnh quyết định thắng lợi; kết hợp sức mạnh dân tộc với sức mạnh thời đại.",
+      "item4_alt": "Văn hóa và con người",
+      "item4_title": "Văn hóa, đạo đức và con người",
+      "item4_text": "Văn hóa là mục tiêu và động lực cách mạng; đạo đức là gốc của người cách mạng; con người vừa là mục tiêu vừa là động lực phát triển."
+    },
+    "whyChooseUs": {
+      "title": "Giá trị tư tưởng Hồ Chí Minh",
+      "image_alt": "Tư tưởng Hồ Chí Minh - Di sản vĩnh cửu",
+      "paragraph1": "<strong>Tư tưởng Hồ Chí Minh</strong> là kim chỉ nam cho dân tộc Việt Nam trong <strong>cuộc đấu tranh giành độc lập dân tộc và xây dựng đất nước</strong>. Tư tưởng này kết hợp hài hòa giữa chủ nghĩa Mác-Lênin với thực tiễn cách mạng Việt Nam.",
+      "paragraph2": "Với hơn 70 năm lịch sử, tư tưởng Hồ Chí Minh đã soi sáng con đường đi tới của dân tộc, giúp Việt Nam từ một nước thuộc địa trở thành quốc gia độc lập, tự chủ. Tư tưởng này tiếp tục là nền tảng vững chắc cho sự nghiệp đổi mới và phát triển đất nước trong thời đại mới.",
+      "stat1_value": "70+",
+      "stat1_label": "Năm soi sáng",
+      "stat2_value": "100%",
+      "stat2_label": "Giá trị vĩnh cửu",
+      "stat3_value": "∞",
+      "stat3_label": "Ý nghĩa hiện đại"
+    },
+    "servicesSection": {
+      "title": "Các khía cạnh tư tưởng Hồ Chí Minh",
+      "service1_title": "Độc lập dân tộc",
+      "service1_description": "Nguyên tắc cốt lõi: Dân tộc độc lập, nhân dân tự do là điều kiện tiên quyết cho mọi phát triển.",
+      "service2_title": "Đạo đức cách mạng",
+      "service2_description": "Xây dựng con người mới với đạo đức trong sáng, cần kiệm liêm chính, chí công vô tư.",
+      "service3_title": "Hội nhập quốc tế",
+      "service3_description": "Chủ trương rộng mở, hòa bình, hữu nghị với tất cả các dân tộc trên thế giới.",
+      "learnMoreButton": "Khám phá thêm"
+    },
+    "projectsSection": {
+      "title": "Dự án tiêu biểu",
+      "video_tvc_quang_cao": "TVC Quảng Cáo",
+      "video_phim_doanh_nghiep": "Phim Doanh Nghiệp",
+      "video_phim_viral": "Phim Viral",
+      "video_phim_thuong_hieu": "Phim Thương Hiệu",
+      "video_tvc_san_pham": "TVC Sản Phẩm",
+      "video_phim_du_an": "Phim Dự Án"
+    },
+    "testimonialSection": {
+      "title": "Tuyên ngôn độc lập",
+      "arrow_left": "<<",
+      "arrow_right": ">>",
+      "card1_avatar_alt": "Ảnh đại diện khách hàng",
+      "card1_quote": "“Với sự hỗ trợ chuyên nghiệp từ PATHWAY, CV của tôi đã được cải thiện đáng kể. Các chuyên gia đã giúp tôi xác định điểm mạnh và trình bày thông tin một cách hiệu quả. Nhờ đó, tôi đã nhận được nhiều lời mời phỏng vấn hơn và cuối cùng là vị trí mơ ước tại một công ty hàng đầu.”",
+      "card1_author": "Anh Nguyễn Minh Tuấn",
+      "card1_role": "Senior Developer - TechVision Corporation"
+    },
+    "clientLogosSection": {
+      "title": "Kho tàn hình ảnh",
+      "logo_google_alt": "Logo Google",
+      "logo_apple_alt": "Logo Apple",
+      "logo_microsoft_alt": "Logo Microsoft",
+      "logo_amazon_alt": "Logo Amazon",
+      "logo_netflix_alt": "Logo Netflix",
+      "logo_linkedin_alt": "Logo LinkedIn",
+      "logo_tcs_alt": "Logo TCS",
+      "logo_accenture_alt": "Logo Accenture"
+    }
+  },
+  "ServicePage": {
+    "pageBanner": {
+      "title": "Dịch vụ",
+      "subtitle": "Các giải pháp tư vấn chuyên nghiệp giúp bạn phát triển sự nghiệp"
+    },
+    "overview": {
+      "title": "Giải pháp toàn diện cho sự nghiệp của bạn",
+      "description": "PATHWAY cung cấp các dịch vụ tư vấn sự nghiệp chuyên nghiệp được thiết kế riêng cho từng giai đoạn phát triển. Từ sinh viên mới ra trường đến chuyên gia cấp cao, chúng tôi đồng hành cùng bạn trên con đường sự nghiệp.",
+      "stat1_value": "95%",
+      "stat1_label": "Khách hàng hài lòng",
+      "stat2_value": "85%",
+      "stat2_label": "Tỷ lệ thành công",
+      "stat3_value": "5000+",
+      "stat3_label": "Khách hàng",
+      "ctaButton": "Đặt lịch tư vấn miễn phí",
+      "imageAlt": "Dịch vụ của PATHWAY"
+    },
+    "serviceList": {
+      "title": "Dịch vụ của chúng tôi",
+      "description": "Khám phá các dịch vụ chuyên nghiệp được thiết kế để giúp bạn đạt được mục tiêu nghề nghiệp",
+      "learnMoreButton": "Tìm hiểu thêm"
+    },
+    "services": {
+      "service1": {
+        "title": "Đánh giá CV chuyên sâu",
+        "description": "Đánh giá và chỉnh sửa CV của bạn bởi chuyên gia tuyển dụng để tối ưu hóa cơ hội được mời phỏng vấn.",
+        "feature1": "Phân tích chi tiết điểm mạnh, điểm yếu",
+        "feature2": "Tư vấn cấu trúc và nội dung",
+        "feature3": "Gợi ý từ khóa ngành nghề phù hợp",
+        "feature4": "Báo cáo đánh giá chi tiết"
+      },
+      "service2": {
+        "title": "Tư vấn phỏng vấn & định hướng",
+        "description": "Chuẩn bị kỹ năng và chiến lược phỏng vấn hiệu quả, tăng tỷ lệ thành công với nhà tuyển dụng.",
+        "feature1": "Phỏng vấn thử với feedback chi tiết",
+        "feature2": "Kỹ thuật trả lời câu hỏi khó",
+        "feature3": "Luyện tập kỹ năng thuyết trình",
+        "feature4": "Định hướng phát triển sự nghiệp"
+      },
+      "service3": {
+        "title": "Định vị thương hiệu cá nhân",
+        "description": "Xây dựng hình ảnh chuyên nghiệp và nổi bật trên thị trường lao động và các nền tảng trực tuyến.",
+        "feature1": "Tối ưu hồ sơ LinkedIn",
+        "feature2": "Chiến lược xây dựng thương hiệu",
+        "feature3": "Tạo portfolio chuyên nghiệp",
+        "feature4": "Kế hoạch phát triển mạng lưới"
+      },
+      "service4": {
+        "title": "Đào tạo kỹ năng mềm",
+        "description": "Phát triển các kỹ năng thiết yếu giúp bạn vượt trội trong môi trường làm việc hiện đại.",
+        "feature1": "Kỹ năng giao tiếp chuyên nghiệp",
+        "feature2": "Làm việc nhóm & lãnh đạo",
+        "feature3": "Quản lý thời gian & stress",
+        "feature4": "Tư duy phản biện & giải quyết vấn đề"
+      }
+    },
+    "process": {
+      "title": "Quy trình làm việc",
+      "description": "Chúng tôi tuân theo quy trình chuyên nghiệp để đảm bảo hiệu quả tối đa",
+      "step1": {
+        "title": "Tư vấn ban đầu",
+        "description": "Phân tích nhu cầu và mục tiêu nghề nghiệp của bạn để đề xuất giải pháp phù hợp nhất"
+      },
+      "step2": {
+        "title": "Xây dựng kế hoạch",
+        "description": "Thiết kế lộ trình và kế hoạch hành động chi tiết dựa trên tình hình cụ thể"
+      },
+      "step3": {
+        "title": "Thực hiện dịch vụ",
+        "description": "Triển khai các hoạt động tư vấn, đào tạo và hỗ trợ theo kế hoạch đã thống nhất"
+      },
+      "step4": {
+        "title": "Theo dõi & đánh giá",
+        "description": "Đo lường kết quả và điều chỉnh chiến lược để đảm bảo đạt được mục tiêu đề ra"
+      }
+    },
+    "testimonials": {
+      "title": "Khách hàng nói gì về chúng tôi",
+      "testimonial1": {
+        "name": "Nguyễn Thanh Hà",
+        "position": "Marketing Manager tại Tech Corp",
+        "content": "Dịch vụ đánh giá CV của PATHWAY đã giúp tôi cải thiện hồ sơ một cách đáng kể. Chỉ sau 2 tuần tôi đã nhận được nhiều lời mời phỏng vấn từ các công ty hàng đầu."
+      },
+      "testimonial2": {
+        "name": "Trần Minh Đức",
+        "position": "Software Developer tại FinTech Solutions",
+        "content": "Buổi tư vấn phỏng vấn thử đã giúp tôi tự tin hơn rất nhiều. Cách coach phân tích điểm mạnh, điểm yếu và đưa ra lời khuyên rất thực tế và hiệu quả."
+      },
+      "testimonial3": {
+        "name": "Lê Thị Phương",
+        "position": "HR Specialist tại Global Group",
+        "content": "Tôi đã tham gia khóa định vị thương hiệu cá nhân và thấy sự thay đổi rõ rệt trong cách nhà tuyển dụng nhìn nhận profile của mình. Xứng đáng với từng đồng bỏ ra!"
+      }
+    },
+    "pricing": {
+      "title": "Bảng giá dịch vụ",
+      "description": "Chúng tôi cung cấp các gói dịch vụ linh hoạt phù hợp với mọi nhu cầu và ngân sách",
+      "currency": "VNĐ",
+      "signUpButton": "Đăng ký ngay",
+      "contactForQuoteMessage": "Vui lòng liên hệ để nhận báo giá chi tiết",
+      "contactButton": "Liên hệ tư vấn",
+      "tab1_title": "Đánh giá CV",
+      "package1": {
+        "tag": "Phổ biến",
+        "title": "Gói Cơ bản",
+        "price": "499.000",
+        "feature1": "Đánh giá CV toàn diện",
+        "feature2": "Báo cáo chi tiết",
+        "feature3": "Gợi ý cải thiện",
+        "feature4_disabled": "Chỉnh sửa CV",
+        "feature5_disabled": "Tư vấn 1-1 với chuyên gia"
+      },
+      "package2": {
+        "tag": "Khuyến nghị",
+        "title": "Gói Nâng cao",
+        "price": "899.000",
+        "feature1": "Đánh giá CV toàn diện",
+        "feature2": "Báo cáo chi tiết",
+        "feature3": "Gợi ý cải thiện",
+        "feature4": "Chỉnh sửa CV",
+        "feature5_disabled": "Tư vấn 1-1 với chuyên gia"
+      },
+      "package3": {
+        "tag": "Cao cấp",
+        "title": "Gói VIP",
+        "price": "1.499.000",
+        "feature1": "Đánh giá CV toàn diện",
+        "feature2": "Báo cáo chi tiết",
+        "feature3": "Gợi ý cải thiện",
+        "feature4": "Chỉnh sửa CV",
+        "feature5": "Tư vấn 1-1 với chuyên gia (60 phút)"
+      },
+      "tab2_title": "Tư vấn phỏng vấn",
+      "tab3_title": "Định vị thương hiệu cá nhân"
+    },
+    "cta": {
+      "title": "Sẵn sàng nâng cao sự nghiệp của bạn?",
+      "description": "Đặt lịch tư vấn miễn phí 15 phút với chuyên gia PATHWAY ngay hôm nay để nhận giải pháp phù hợp nhất cho mục tiêu nghề nghiệp của bạn.",
+      "button1_text": "Đặt lịch ngay",
+      "button2_text": "Tìm hiểu thêm"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "item1": {
+        "question": "Tôi nhận được gì từ dịch vụ đánh giá CV?",
+        "answer": "Bạn sẽ nhận được báo cáo đánh giá chi tiết về điểm mạnh, điểm yếu của CV hiện tại, cùng với các gợi ý cụ thể để cải thiện nội dung, cấu trúc và định dạng. Tùy theo gói dịch vụ, bạn còn có thể nhận được CV được chỉnh sửa bởi chuyên gia và buổi tư vấn 1-1."
+      },
+      "item2": {
+        "question": "Buổi tư vấn phỏng vấn thử diễn ra như thế nào?",
+        "answer": "Buổi tư vấn phỏng vấn thử bao gồm phần phỏng vấn mô phỏng dựa trên vị trí bạn đang ứng tuyển, sau đó chuyên gia sẽ đánh giá và đưa ra phản hồi chi tiết về câu trả lời, ngôn ngữ cơ thể, kỹ năng giao tiếp và các gợi ý cải thiện cụ thể."
+      },
+      "item3": {
+        "question": "Dịch vụ định vị thương hiệu cá nhân phù hợp với ai?",
+        "answer": "Dịch vụ này phù hợp cho cả người mới đi làm muốn xây dựng hình ảnh chuyên nghiệp và chuyên gia cấp cao muốn nâng cao vị thế trong ngành. Chúng tôi sẽ tùy chỉnh chiến lược phù hợp với mức độ kinh nghiệm và mục tiêu cụ thể của bạn."
+      },
+      "item4": {
+        "question": "Tôi có thể yêu cầu tư vấn cho ngành nghề đặc thù không?",
+        "answer": "Có, đội ngũ tư vấn của PATHWAY có kinh nghiệm trong nhiều lĩnh vực khác nhau như IT, tài chính, marketing, kỹ thuật, v.v. Chúng tôi sẽ kết nối bạn với chuyên gia có kinh nghiệm trong ngành nghề của bạn để đảm bảo lời khuyên phù hợp và thiết thực."
+      }
+    }
+  },
+  "FeaturedProjectsPage": {
+    "pageBanner": {
+      "title": "Dự Án Nổi Bật",
+      "subtitle": "Khám phá những dự án tiêu biểu đã giúp khách hàng của chúng tôi đạt được mục tiêu nghề nghiệp"
+    },
+    "categoryTabs": {
+      "all": "Tất cả dự án",
+      "corporate": "Doanh nghiệp",
+      "executive": "Lãnh đạo cấp cao",
+      "education": "Giáo dục",
+      "tools": "Công cụ & Phương pháp"
+    },
+    "projectDetails": {
+      "clientLabel": "Khách hàng:",
+      "resultsTitle": "Kết quả đạt được",
+      "detailsButton": "Xem chi tiết"
+    },
+    "projects": {
+      "project1": {
+        "title": "Chuyển đổi nghề nghiệp thành công cho 200 nhân viên ngân hàng",
+        "description": "Dự án tư vấn và huấn luyện chuyển đổi nghề nghiệp cho các nhân viên của một ngân hàng sau tái cấu trúc. Tỷ lệ tìm được việc làm mới trong vòng 3 tháng đạt 89%.",
+        "client": "Ngân hàng TMCP Phương Đông",
+        "date": "Tháng 6 - Tháng 12, 2022",
+        "tag1": "Chuyển đổi nghề nghiệp",
+        "tag2": "Huấn luyện việc làm",
+        "tag3": "Phát triển CV",
+        "result1": "89% học viên tìm được việc làm mới trong vòng 3 tháng",
+        "result2": "95% báo cáo hài lòng với chương trình",
+        "result3": "78% tăng mức lương so với vị trí cũ"
+      },
+      "project2": {
+        "title": "Xây dựng chiến lược thương hiệu cá nhân cho đội ngũ lãnh đạo",
+        "description": "Dự án tư vấn và xây dựng thương hiệu cá nhân cho 25 lãnh đạo cấp cao của một tập đoàn đa quốc gia, giúp họ tăng cường hiện diện trên LinkedIn và trở thành thought leaders trong ngành.",
+        "client": "Tập đoàn Samsung Việt Nam",
+        "date": "Tháng 3 - Tháng 8, 2022",
+        "tag1": "Thương hiệu cá nhân",
+        "tag2": "LinkedIn",
+        "tag3": "Lãnh đạo tư tưởng",
+        "result1": "Tăng kết nối LinkedIn trung bình 217% sau 6 tháng",
+        "result2": "15 lãnh đạo được mời làm diễn giả tại các sự kiện ngành",
+        "result3": "Tăng 320% lượng engagement trên các bài đăng"
+      },
+      "project3": {
+        "title": "Chương trình đào tạo kỹ năng phỏng vấn cho sinh viên sắp tốt nghiệp",
+        "description": "Dự án hợp tác với trường đại học tổ chức chuỗi workshop về kỹ năng phỏng vấn, chuẩn bị CV và định hướng nghề nghiệp cho 500 sinh viên năm cuối.",
+        "client": "Đại học Bách Khoa TP.HCM",
+        "date": "Tháng 4 - Tháng 5, 2023",
+        "tag1": "Đào tạo sinh viên",
+        "tag2": "Kỹ năng phỏng vấn",
+        "tag3": "Chuẩn bị CV",
+        "result1": "500+ sinh viên được đào tạo qua 10 workshop",
+        "result2": "72% sinh viên tìm được việc làm trong vòng 2 tháng sau tốt nghiệp",
+        "result3": "Điểm hài lòng trung bình 4.8/5"
+      },
+      "project4": {
+        "title": "Tái cấu trúc bộ phận HR và quy trình tuyển dụng",
+        "description": "Dự án tư vấn và hỗ trợ tái cấu trúc bộ phận nhân sự, xây dựng quy trình tuyển dụng mới và đào tạo đội ngũ tuyển dụng theo các tiêu chuẩn quốc tế.",
+        "client": "Công ty Cổ phần FPT",
+        "date": "Tháng 1 - Tháng 5, 2022",
+        "tag1": "Tái cấu trúc HR",
+        "tag2": "Quy trình tuyển dụng",
+        "tag3": "Đào tạo nhân sự",
+        "result1": "Giảm 35% thời gian tuyển dụng",
+        "result2": "Tăng 28% tỷ lệ giữ chân nhân viên sau 1 năm",
+        "result3": "Chỉ số hài lòng của ứng viên tăng 42%"
+      },
+      "project5": {
+        "title": "Xây dựng bộ công cụ đánh giá năng lực cho ngành công nghệ",
+        "description": "Phát triển bộ công cụ đánh giá năng lực toàn diện cho các vị trí công nghệ thông tin, bao gồm các bài test kỹ thuật, phỏng vấn hành vi và đánh giá văn hóa phù hợp.",
+        "client": "Tập đoàn VNG",
+        "date": "Tháng 9, 2022 - Tháng 2, 2023",
+        "tag1": "Đánh giá năng lực",
+        "tag2": "Công nghệ thông tin",
+        "tag3": "Tuyển dụng",
+        "result1": "Giảm 47% tỷ lệ tuyển dụng sai người",
+        "result2": "Tăng 23% chất lượng ứng viên vào vòng phỏng vấn cuối",
+        "result3": "Tiết kiệm 30% chi phí tuyển dụng"
+      },
+      "project6": {
+        "title": "Chương trình huấn luyện lãnh đạo tài năng trẻ",
+        "description": "Chương trình 6 tháng nhằm phát triển 30 lãnh đạo tài năng trẻ thông qua coaching 1-1, seminar và dự án thực tế, giúp họ chuẩn bị cho các vị trí quản lý cao hơn.",
+        "client": "Unilever Việt Nam",
+        "date": "Tháng 7, 2022 - Tháng 1, 2023",
+        "tag1": "Phát triển lãnh đạo",
+        "tag2": "Coaching",
+        "tag3": "Quản lý tài năng",
+        "result1": "87% học viên được thăng chức trong vòng 12 tháng",
+        "result2": "Tăng 42% chỉ số engagement của nhóm tài năng",
+        "result3": "Giảm 35% tỷ lệ nghỉ việc ở nhóm high potential"
+      }
+    },
+    "noProjects": {
+      "title": "Không có dự án nào trong danh mục này.",
+      "button": "Xem tất cả dự án"
+    },
+    "statsSection": {
+      "stat1_number": "100+",
+      "stat1_title": "Dự án đã hoàn thành",
+      "stat1_desc": "Dự án tư vấn và đào tạo cho các đối tác doanh nghiệp và cá nhân",
+      "stat2_number": "87%",
+      "stat2_title": "Khách hàng quay lại",
+      "stat2_desc": "Tỷ lệ khách hàng tiếp tục sử dụng dịch vụ của chúng tôi cho các dự án tiếp theo",
+      "stat3_number": "20+",
+      "stat3_title": "Ngành nghề đã phục vụ",
+      "stat3_desc": "Kinh nghiệm làm việc đa dạng với nhiều lĩnh vực từ công nghệ đến tài chính, sản xuất"
+    },
+    "testimonialSection": {
+      "title": "Khách hàng nói gì về chúng tôi",
+      "testimonial1": {
+        "quote": "PATHWAY đã giúp đội ngũ HR của chúng tôi xây dựng quy trình tuyển dụng hiệu quả hơn. Chúng tôi đã giảm 40% thời gian tìm kiếm ứng viên phù hợp và tăng chất lượng tuyển dụng.",
+        "authorName": "Trần Thị Minh",
+        "authorTitle": "Giám đốc Nhân sự, FPT Software"
+      },
+      "testimonial2": {
+        "quote": "Chương trình coaching của PATHWAY đã giúp tôi rõ ràng hơn về định hướng phát triển và xây dựng thương hiệu cá nhân hiệu quả. Nhờ đó, tôi đã nhận được vị trí mong muốn tại một công ty đa quốc gia.",
+        "authorName": "Nguyễn Văn Hưng",
+        "authorTitle": "Marketing Director, Unilever"
+      },
+      "testimonial3": {
+        "quote": "Tôi rất ấn tượng với phương pháp làm việc chuyên nghiệp của PATHWAY. Các workshop về kỹ năng phỏng vấn đã mang lại giá trị thiết thực cho sinh viên của chúng tôi, giúp họ tự tin hơn khi bước vào thị trường lao động.",
+        "authorName": "Lê Thị Hương",
+        "authorTitle": "Trưởng phòng Hỗ trợ SV, ĐH Bách Khoa"
+      }
+    },
+    "cta": {
+      "title": "Hãy cho chúng tôi biết về dự án của bạn",
+      "description": "Chúng tôi sẵn sàng lắng nghe và đề xuất giải pháp phù hợp với nhu cầu cụ thể của doanh nghiệp hoặc cá nhân",
+      "button1_text": "Liên hệ ngay",
+      "button2_text": "Xem thêm dịch vụ"
+    }
+  },
+  "PricingPage": {
+    "pageBanner": {
+      "title": "Báo Giá Dịch Vụ",
+      "subtitle": "Lựa chọn gói dịch vụ phù hợp với nhu cầu và ngân sách của bạn"
+    },
+    "intro": {
+      "title": "Đầu tư cho sự nghiệp của bạn",
+      "description": "PATHWAY cung cấp các gói dịch vụ đa dạng phù hợp với từng giai đoạn sự nghiệp. Từ sinh viên mới ra trường đến các vị trí quản lý cấp cao, chúng tôi đều có giải pháp phù hợp."
+    },
+    "plans": {
+      "plan1": {
+        "title": "GÓI CƠ BẢN",
+        "price": "499,000 VNĐ",
+        "originalPrice": "",
+        "description": "Phù hợp với: Người mới bắt đầu, muốn biết CV đang ở mức nào và cần điều chỉnh gì.",
+        "feature1": "Đánh giá CV toàn diện",
+        "feature2": "Báo cáo chi tiết điểm mạnh – điểm yếu",
+        "feature3": "Gợi ý cải thiện cụ thể",
+        "feature4": "Thời gian phản hồi: 3 ngày",
+        "feature5": "Hỗ trợ qua email"
+      },
+      "plan2": {
+        "title": "GÓI NÂNG CAO",
+        "price": "899,000 VNĐ",
+        "originalPrice": "",
+        "description": "Phù hợp với: Người cần cải thiện chất lượng CV mạnh mẽ để ứng tuyển ngay trong thời gian ngắn.",
+        "feature1": "Tất cả quyền lợi của Gói Cơ Bản",
+        "feature2": "Chỉnh sửa CV theo góp ý",
+        "feature3": "Thời gian phản hồi: 2 ngày",
+        "feature4": "Hỗ trợ trong 1 tháng",
+        "feature5": "Hỗ trợ qua email"
+      },
+      "plan3": {
+        "title": "GÓI VIP",
+        "price": "1,499,000 VNĐ",
+        "originalPrice": "",
+        "description": "Phù hợp với: Người đang nhắm đến các vị trí quan trọng, cần cá nhân hóa tối đa và hướng dẫn trực tiếp.",
+        "feature1": "Tất cả quyền lợi của Gói Nâng Cao",
+        "feature2": "1 buổi tư vấn 1-1 với chuyên gia (60 phút)",
+        "feature3": "Phân tích định hướng nghề nghiệp, chỉnh sửa CV theo mục tiêu cụ thể và giải đáp mọi thắc mắc",
+        "feature4": "Thời gian phản hồi: 24 giờ",
+        "feature5": "Hỗ trợ trong 3 tháng",
+        "feature6": "Cam kết hoàn tiền nếu không hài lòng"
+      },
+      "popularTag": "Phổ biến nhất",
+      "selectButton": "Chọn Gói Này"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "item1": {
+        "question": "Sau khi thanh toán, tôi sẽ nhận được dịch vụ trong bao lâu?",
+        "answer": "Sau khi xác nhận thanh toán, chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ để bắt đầu quy trình. Thời gian phản hồi chi tiết phụ thuộc vào gói dịch vụ bạn lựa chọn."
+      },
+      "item2": {
+        "question": "Tôi có thể nâng cấp gói dịch vụ sau khi đã mua không?",
+        "answer": "Có, bạn có thể nâng cấp gói dịch vụ bất kỳ lúc nào. Bạn chỉ cần thanh toán phần chênh lệch giữa gói hiện tại và gói bạn muốn nâng cấp."
+      },
+      "item3": {
+        "question": "Chính sách hoàn tiền của PATHWAY như thế nào?",
+        "answer": "PATHWAY cam kết hoàn tiền 100% nếu bạn không hài lòng với dịch vụ của chúng tôi trong vòng 7 ngày đầu tiên (áp dụng cho Gói VIP)."
+      },
+      "item4": {
+        "question": "Có phương thức thanh toán nào khác ngoài chuyển khoản ngân hàng?",
+        "answer": "Hiện tại, chúng tôi hỗ trợ thanh toán qua chuyển khoản ngân hàng, Momo, ZaloPay và VNPAY. Vui lòng liên hệ với chúng tôi nếu bạn cần các phương thức thanh toán khác."
+      }
+    },
+    "cta": {
+      "title": "Bạn cần tư vấn thêm?",
+      "description": "Liên hệ với chuyên viên tư vấn của PATHWAY để được hỗ trợ lựa chọn gói dịch vụ phù hợp nhất",
+      "button": "Liên hệ ngay"
+    }
+  },
+  "BlogPage": {
+    "pageBanner": {
+      "title": "Blog",
+      "subtitle": "Kiến thức, chia sẻ và hướng dẫn phát triển sự nghiệp từ đội ngũ chuyên gia của PATHWAY"
+    },
+    "filters": {
+      "searchPlaceholder": "Tìm kiếm bài viết...",
+      "allTopics": "Tất cả chủ đề",
+      "career": "Sự nghiệp",
+      "cv": "CV & Hồ sơ",
+      "interview": "Phỏng vấn",
+      "personalBranding": "Thương hiệu cá nhân",
+      "salary": "Đàm phán lương",
+      "careerChange": "Chuyển đổi nghề nghiệp"
+    },
+    "blogPosts": {
+      "post1": {
+        "title": "10 kỹ năng cần thiết cho sự nghiệp trong thời đại số",
+        "excerpt": "Khám phá những kỹ năng quan trọng mà nhà tuyển dụng đang tìm kiếm trong thời đại công nghệ số hiện nay.",
+        "author": "Nguyễn Văn A",
+        "tag1": "kỹ năng mềm",
+        "tag2": "công nghệ",
+        "tag3": "học tập suốt đời"
+      },
+      "post2": {
+        "title": "Làm thế nào để CV của bạn vượt qua phần mềm ATS?",
+        "excerpt": "Hướng dẫn chi tiết giúp CV của bạn vượt qua các phần mềm quét và lọc hồ sơ tự động của nhà tuyển dụng.",
+        "author": "Trần Thị B",
+        "tag1": "ATS",
+        "tag2": "CV",
+        "tag3": "tuyển dụng"
+      },
+      "post3": {
+        "title": "5 sai lầm phổ biến trong phỏng vấn xin việc",
+        "excerpt": "Những lỗi thường gặp có thể khiến bạn mất cơ hội việc làm và cách khắc phục hiệu quả.",
+        "author": "Lê Văn C",
+        "tag1": "phỏng vấn",
+        "tag2": "kỹ năng giao tiếp",
+        "tag3": "chuẩn bị"
+      },
+      "post4": {
+        "title": "Xây dựng thương hiệu cá nhân trên LinkedIn",
+        "excerpt": "Chiến lược toàn diện để tạo dựng và phát triển hình ảnh chuyên nghiệp trên mạng xã hội việc làm hàng đầu.",
+        "author": "Phạm Thị D",
+        "tag1": "LinkedIn",
+        "tag2": "mạng xã hội",
+        "tag3": "thương hiệu cá nhân"
+      },
+      "post5": {
+        "title": "Cách đàm phán lương hiệu quả",
+        "excerpt": "Những chiến lược và kỹ thuật giúp bạn tự tin đàm phán mức lương xứng đáng với năng lực của mình.",
+        "author": "Vũ Hoàng E",
+        "tag1": "đàm phán",
+        "tag2": "lương",
+        "tag3": "giá trị bản thân"
+      },
+      "post6": {
+        "title": "Chuyển đổi nghề nghiệp ở tuổi 30+: Không bao giờ là quá muộn",
+        "excerpt": "Cẩm nang hướng dẫn cho những người muốn thay đổi sự nghiệp khi đã ở độ tuổi trưởng thành.",
+        "author": "Nguyễn Thị F",
+        "tag1": "chuyển nghề",
+        "tag2": "học kỹ năng mới",
+        "tag3": "định hướng"
+      }
+    },
+    "subscribeSection": {
+      "title": "Đăng ký nhận bản tin",
+      "description": "Nhận các bài viết mới nhất và lời khuyên từ chuyên gia PATHWAY hàng tuần",
+      "emailPlaceholder": "Email của bạn",
+      "subscribeButton": "Đăng ký"
+    }
+  },
+  "ContactPage": {
+    "pageBanner": {
+      "title": "Liên hệ",
+      "subtitle": "Kết nối với chúng tôi để nhận hỗ trợ và tư vấn cho sự nghiệp của bạn"
+    },
+    "formSection": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "description": "Bạn có câu hỏi hoặc cần tư vấn? Hãy điền thông tin vào form dưới đây và đội ngũ PATHWAY sẽ phản hồi trong thời gian sớm nhất.",
+      "labels": {
+        "fullName": "Họ và tên",
+        "email": "Email",
+        "subject": "Tiêu đề",
+        "message": "Nội dung"
+      },
+      "placeholders": {
+        "fullName": "Nhập họ và tên của bạn",
+        "email": "Nhập địa chỉ email của bạn",
+        "subject": "Nhập tiêu đề tin nhắn",
+        "message": "Nội dung tin nhắn của bạn..."
+      },
+      "validation": {
+        "fullNameRequired": "Vui lòng nhập họ và tên",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ",
+        "subjectRequired": "Vui lòng nhập tiêu đề",
+        "messageRequired": "Vui lòng nhập nội dung"
+      },
+      "submitButton": "Gửi tin nhắn",
+      "submitSuccess": "Tin nhắn của bạn đã được gửi thành công!",
+      "submitError": "Có lỗi xảy ra. Vui lòng thử lại sau!"
+    },
+    "infoSection": {
+      "title": "Thông tin liên hệ",
+      "description": "Liên hệ trực tiếp với chúng tôi qua các phương thức sau:",
+      "addressTitle": "Địa chỉ",
+      "addressContent": "28 Nguyễn Trãi, Quận 1, TP.HCM",
+      "phoneTitle": "Điện thoại",
+      "phoneContent": "(+84) 28 1234 5678",
+      "emailTitle": "Email",
+      "emailContent": "info@pathway.vn",
+      "hoursTitle": "Giờ làm việc",
+      "hoursContent": "Thứ 2 - Thứ 6: 9:00 - 18:00",
+      "followUsTitle": "Theo dõi chúng tôi"
+    },
+    "faqSection": {
+      "title": "Câu hỏi thường gặp",
+      "item1": {
+        "question": "Làm thế nào để đặt lịch tư vấn?",
+        "answer": "Bạn có thể đặt lịch tư vấn qua form liên hệ trên trang web, gọi điện trực tiếp hoặc gửi email cho chúng tôi. Đội ngũ PATHWAY sẽ liên hệ lại trong vòng 24 giờ để xác nhận lịch hẹn."
+      },
+      "item2": {
+        "question": "Tôi có thể đến văn phòng không cần đặt lịch trước?",
+        "answer": "Để đảm bảo chất lượng tư vấn tốt nhất, chúng tôi khuyến khích đặt lịch hẹn trước. Tuy nhiên, bạn có thể ghé văn phòng trong giờ làm việc để tìm hiểu thêm về dịch vụ."
+      },
+      "item3": {
+        "question": "PATHWAY có cung cấp dịch vụ tư vấn trực tuyến không?",
+        "answer": "Có, chúng tôi cung cấp dịch vụ tư vấn trực tuyến qua Zoom, Google Meet hoặc các nền tảng khác theo nhu cầu của khách hàng."
+      },
+      "item4": {
+        "question": "Làm thế nào để nhận báo giá dịch vụ chi tiết?",
+        "answer": "Bạn có thể xem thông tin báo giá cơ bản tại trang Báo giá của chúng tôi. Để nhận báo giá chi tiết và phù hợp với nhu cầu cụ thể, vui lòng liên hệ trực tiếp với chúng tôi."
+      }
+    }
+  },
+  "Header": {
+    "logoAlt": "Logo Pathway",
+    "menu": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "services": "Dịch vụ",
+      "projects": "Dự án",
+      "pricing": "Báo giá",
+      "blog": "Blog",
+      "contact": "Liên hệ"
+    }
+  },
+  "Footer": {
+    "logoAlt": "Logo PATHWAY",
+    "aboutText": "PATHWAY là đơn vị dẫn đầu trong lĩnh vực tư vấn nghề nghiệp, giúp các chuyên gia phát triển sự nghiệp bền vững thông qua các dịch vụ đánh giá CV, tư vấn phỏng vấn và định hướng nghề nghiệp.",
+    "socialLabels": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
+      "zalo": "Zalo",
+      "callNow": "Gọi ngay"
+    },
+    "linksServicesTitle": "Dịch vụ",
+    "serviceLinks": {
+      "cvReview": "Đánh giá CV",
+      "interviewCoaching": "Luyện phỏng vấn",
+      "careerConsulting": "Tư vấn nghề nghiệp",
+      "linkedinOptimization": "Tối ưu LinkedIn",
+      "softSkillsTraining": "Đào tạo kỹ năng mềm"
+    },
+    "linksInformationTitle": "Thông tin",
+    "informationLinks": {
+      "aboutUs": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "blog": "Blog",
+      "faq": "Câu hỏi thường gặp",
+      "privacyPolicy": "Chính sách bảo mật"
+    },
+    "contactInfoTitle": "Liên hệ",
+    "contactDetails": {
+      "mainOfficeLabel": "Văn phòng chính:",
+      "mainOfficeAddress": "28 Nguyễn Trãi, Quận 1, TP.HCM",
+      "hotlineLabel": "Hotline:",
+      "hotlineNumber": "0909 123 456",
+      "emailLabel": "Email:",
+      "emailAddress": "contact@pathway.vn"
+    },
+    "newsletter": {
+      "title": "Đăng ký nhận thông tin",
+      "description": "Nhận các tin tức mới nhất về nghề nghiệp và cơ hội việc làm",
+      "emailPlaceholder": "Email của bạn",
+      "subscribeButton": "Đăng ký",
+      "submitSuccess": "Yêu cầu của bạn đã được gửi thành công!",
+      "validation": {
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ"
+      }
+    },
+    "bottom": {
+      "copyright": "© {currentYear} PATHWAY. Tất cả quyền được bảo lưu.",
+      "terms": "Điều khoản sử dụng",
+      "privacy": "Chính sách bảo mật",
+      "cookies": "Cookies"
+    }
+  },
+  "BookingHistory": {
+    "title": "Lịch sử đặt lịch",
+    "empty": "Bạn chưa có lịch đặt nào",
+    "status": {
+      "completed": "Đã hoàn thành",
+      "upcoming": "Đang phản hồi",
+      "cancelled": "Đã hủy",
+      "unknown": "Không xác định"
+    },
+    "table": {
+      "service": "Dịch vụ",
+      "date": "Ngày",
+      "time": "Giờ",
+      "coach": "Chuyên gia",
+      "status": "Trạng thái",
+      "amount": "Số tiền",
+      "action": "Hành động",
+      "summary": "Chi tiết"
+    },
+    "action": {
+      "view": "Xem chi tiết",
+      "cancel": "Hủy đặt lịch"
+    }
+  },
+  "ProfilePage": {
+    "title": "Thông tin cá nhân",
+    "loading": "Đang tải thông tin...",
+    "notLoggedIn": {
+      "title": "Bạn cần đăng nhập để xem trang này",
+      "loginButton": "Đăng nhập"
+    },
+    "tabs": {
+      "info": "Thông tin cá nhân",
+      "history": "Lịch sử đặt lịch",
+      "wallet": "Ví tiền"
+    },
+    "wallet": {
+      "balanceLabel": "Số dư tài khoản",
+      "topUp": "Nạp tiền"
+    }
+  },
+  "UserInfo": {
+    "title": "Thông tin cá nhân",
+    "edit": "Chỉnh sửa",
+    "save": "Lưu thông tin",
+    "submit": "Lưu thay đổi",
+    "cancel": "Hủy",
+    "success": "Cập nhật thông tin thành công!",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "requiredFullName": "Vui lòng nhập họ tên",
+    "requiredEmail": "Vui lòng nhập email",
+    "invalidEmail": "Email không hợp lệ",
+    "requiredPhone": "Vui lòng nhập số điện thoại",
+    "notUpdated": "Chưa cập nhật"
+  },
+  "WalletSection": {
+    "transactionHistoryTitle": "Lịch sử giao dịch",
+    "table": {
+      "date": "Ngày",
+      "type": "Loại giao dịch",
+      "amount": "Số tiền",
+      "description": "Mô tả",
+      "status": "Trạng thái",
+      "transactionSummary": "Giao dịch"
+    },
+    "transactionTypes": {
+      "topup": "Nạp tiền",
+      "purchase": "Thanh toán",
+      "refund": "Hoàn tiền",
+      "default": "Giao dịch"
+    },
+    "transactionStatuses": {
+      "completed": "Hoàn thành",
+      "pending": "Đang xử lý",
+      "failed": "Thất bại",
+      "unknown": "Không xác định"
+    },
+    "emptyDescription": "Không có giao dịch nào",
+    "sampleTransactions": {
+      "sample1": {
+        "description": "Nạp tiền qua Momo"
+      },
+      "sample2": {
+        "description": "Thanh toán dịch vụ"
+      },
+      "sample3": {
+        "description": "Hoàn tiền dịch vụ"
+      },
+      "sample4": {
+        "description": "Nạp tiền qua ngân hàng"
+      }
+    },
+    "mobileLabels": {
+      "date": "Ngày:",
+      "type": "Loại:",
+      "amount": "Số tiền:",
+      "description": "Mô tả:",
+      "status": "Trạng thái:"
+    }
+  },
+  "BookingReviewSection": {
+    "logoAlt": "Logo PATHWAY",
+    "title": "Đặt lịch đánh giá CV & Tư vấn tìm việc",
+    "description": "Bạn đã sẵn sàng nâng cao sự nghiệp của mình? Gửi CV để nhận đánh giá chuyên gia hoặc đặt lịch tư vấn cá nhân với các chuyên gia tư vấn nghề nghiệp của PATHWAY. Chúng tôi sẽ giúp bạn nổi bật giữa đám đông và giành được công việc mơ ước.",
+    "successMessage": {
+      "title": "Cảm ơn bạn đã liên hệ!",
+      "paragraph": "Chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc.",
+      "button": "Gửi yêu cầu khác"
+    },
+    "form": {
+      "placeholders": {
+        "fullName": "Họ và tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "position": "Vị trí hiện tại",
+        "description": "Mô tả ngắn gọn về mục tiêu nghề nghiệp và cách chúng tôi có thể giúp đỡ"
+      },
+      "validation": {
+        "fullNameRequired": "Vui lòng nhập họ và tên",
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ",
+        "phoneRequired": "Vui lòng nhập số điện thoại",
+        "positionRequired": "Vui lòng nhập vị trí hiện tại",
+        "descriptionRequired": "Vui lòng nhập mô tả"
+      },
+      "submitButton": "Gửi yêu cầu",
+      "submittingButton": "Đang gửi..."
+    },
+    "toast": {
+      "submitSuccess": "Yêu cầu của bạn đã được gửi thành công!",
+      "submitError": "Có lỗi xảy ra. Vui lòng thử lại sau."
+    }
+  }
+}

@@ -1,0 +1,214 @@
+.custom-table-wrapper {
+  margin-bottom: 24px;
+
+  .custom-table-header {
+    margin-bottom: 16px;
+
+    .custom-table-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #262626;
+    }
+
+    .custom-table-subtitle {
+      font-size: 14px;
+      color: #8c8c8c;
+      margin-bottom: 0;
+    }
+  }
+
+  .custom-table {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+
+    .ant-table {
+      background: #ffffff;
+    }
+
+    // Default style
+    .ant-table-thead > tr > th {
+      background-color: #1890ff;
+      color: white;
+      font-weight: 600;
+      padding: 16px 12px;
+      //   text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      border-bottom: 2px solid #e6f7ff;
+
+      &:first-child {
+        border-top-left-radius: 8px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 8px;
+      }
+    }
+
+    // Gradient header style
+    &.header-gradient {
+      .ant-table-thead > tr > th {
+        background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+        background-size: 200% auto;
+        animation: gradientAnimation 5s ease infinite;
+        color: white;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-position: right center;
+        }
+      }
+
+      .ant-table-thead > tr {
+        th:first-child {
+          background: linear-gradient(135deg, #1a7a94 0%, #6dd5ed 100%);
+        }
+
+        th:last-child {
+          background: linear-gradient(135deg, #2193b0 0%, #88dbef 100%);
+        }
+      }
+    }
+
+    // Minimal header style
+    &.header-minimal {
+      .ant-table-thead > tr > th {
+        background-color: #fafafa;
+        color: #262626;
+        border-bottom: 2px solid #1890ff;
+        text-transform: none;
+        font-weight: 500;
+      }
+    }
+
+    .ant-table-tbody > tr > td {
+      padding: 14px 12px;
+      transition: all 0.3s ease;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .ant-table-tbody > tr:hover > td {
+      background-color: #e6f7ff;
+    }
+
+    .ant-table-tbody > tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    .ant-pagination {
+      margin: 16px;
+
+      .ant-pagination-item-active {
+        border-color: #1890ff;
+        background-color: #1890ff;
+
+        a {
+          color: white;
+        }
+      }
+    }
+
+    // Button styling inside tables
+    .ant-btn {
+      &.ant-btn-primary {
+        background-color: #1890ff;
+        border-color: #1890ff;
+
+        &:hover,
+        &:focus {
+          background-color: #40a9ff;
+          border-color: #40a9ff;
+        }
+      }
+    }
+
+    // Tag styling in tables
+    .ant-tag {
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-weight: 500;
+
+      &.ant-tag-red {
+        color: #cf1322;
+        background: #fff1f0;
+        border-color: #ffa39e;
+      }
+
+      &.ant-tag-blue {
+        color: #096dd9;
+        background: #e6f7ff;
+        border-color: #91d5ff;
+      }
+
+      &.ant-tag-green {
+        color: #389e0d;
+        background: #f6ffed;
+        border-color: #b7eb8f;
+      }
+
+      &.ant-tag-yellow {
+        color: #d48806;
+        background: #fffbe6;
+        border-color: #ffe58f;
+      }
+    }
+  }
+}
+
+// Dark theme support
+.dark-theme {
+  .custom-table-wrapper {
+    .custom-table-title {
+      color: #e6e6e6;
+    }
+
+    .custom-table-subtitle {
+      color: #a6a6a6;
+    }
+
+    .custom-table {
+      background-color: #1f1f1f;
+
+      .ant-table {
+        background: linear-gradient(to right, #1f1f1f, #2a2a2a);
+        color: #d9d9d9;
+      }
+
+      .ant-table-thead > tr > th {
+        background-color: #096dd9;
+        color: #f0f0f0;
+        border-bottom: 2px solid #1f1f1f;
+      }
+
+      .ant-table-tbody > tr > td {
+        border-bottom: 1px solid #303030;
+        color: #d9d9d9;
+      }
+
+      .ant-table-tbody > tr:hover > td {
+        background-color: #303030;
+      }
+
+      .ant-table-tbody > tr:nth-child(even) {
+        background-color: #262626;
+      }
+    }
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

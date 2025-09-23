@@ -1,0 +1,957 @@
+{
+  "Profile": {
+    "changepass": "Change password"
+  },
+  "Gioi_thieu": {
+    "pageBanner": {
+      "title": "About Us",
+      "subtitle": "Accompanying you on your career journey"
+    },
+    "PATHWAY_Story": "Our Story",
+    "PATHWAY_Story_Description": "PATHWAY was founded in 2018 by leading HR professionals with the mission of helping Vietnamese workers shape and develop sustainable careers in the digital age.",
+    "PATHWAY_Story_Detail": "From the first consultations, we realized that many talented people were having difficulty expressing their value to employers and developing a clear career path.",
+    "PATHWAY_Story_Mission": "Over the past 5 years, PATHWAY has accompanied more than 5,000 clients from fresh graduates to senior managers, helping them achieve their career goals and build sustainable careers.",
+    "PATHWAY_Story_Button": "Learn more about our Services",
+    "storySection": {
+      "imageAlt": "Illustrative image of PATHWAY's story"
+    },
+    "missionVisionSection": {
+      "title": "Mission and Vision",
+      "description": "",
+      "missionCard": {
+        "title": "Mission",
+        "description": "“Pathway CV supports users to create, manage, and upgrade personal profiles to serve career orientation.”",
+        "listItem1": "“Create, manage and upgrade profiles”: Not only stopping at providing CV templates, the project aims at a long-term personal profile management ecosystem, allowing users to update and adjust according to each career stage.",
+        "listItem2": "“Career Orientation Service”: This is not simply writing a CV to apply for a job, but supporting users to clearly see themselves, shape their career path, and thereby express it strategically.",
+        "listItem3": "Not simply a CV creation tool, but a strategic partner that helps users reflect their personal development journey through their profile, with an educational and liberating goal."
+      },
+      "visionCard": {
+        "title": "Vision",
+        "description": "“To become the leading career profile personalization platform in Vietnam for young people and working people.”",
+        "listItem1": "“Career profile personalization platform”: Not a mass product, but focusing on customization according to the journey, goals, and profession of each user.",
+        "listItem2": "“Leading in Vietnam”: Ambition to take the leading position in this niche market – requiring not only good technology, but also a deep understanding of Vietnamese users.",
+        "listItem3": "“Young people and working people”: Clearly define the target group: from students to experienced people – who have very different needs but all need specialized support, suitable for personal development trends."
+      }
+    },
+    "coreValuesSection": {
+      "title": "Core values",
+      "description": ""
+    },
+    "coreValues": {
+      "expertise": {
+        "title": "Expertise",
+        "description": "A team of experienced experts in recruitment and career development, providing practical perspectives and clear direction to clients."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Committed to providing high-quality, personalized, and optimized services according to each user's career goals."
+      },
+      "empathy": {
+        "title": "Empathy",
+        "description": "Understand the difficulties in the career journey and accompany customers through practical, sincere advice."
+      },
+      "results": {
+        "title": "Results",
+        "description": "With results at the center, Pathway focuses on specific goals, helping clients achieve clear and sustainable achievements in their careers."
+      }
+    },
+    "milestonesSection": {
+      "title": "Development journey",
+      "description": ""
+    },
+    "timelineItems": {
+      "stage1": {
+        "label": "2018–2019",
+        "title": "Building the foundation & developing core services",
+        "description": ""
+      },
+      "stage2": {
+        "label": "2020–2021",
+        "title": "Digital transformation & expanding geographical markets",
+        "description": ""
+      },
+      "stage3": {
+        "label": "2022–2023",
+        "title": "Affirming position through scale & enhancing value through training",
+        "description": ""
+      }
+    },
+    "statsSection": {
+      "clients": { "title": "Clients" },
+      "experts": { "title": "Experts" },
+      "satisfaction": { "title": "Satisfaction Rate" },
+      "partners": { "title": "Business Partners" }
+    },
+    "teamSection": {
+      "title": "Team of experts – The foundation of difference at PATHWAY",
+      "description": "The PATHWAY team gathers experienced experts with deep expertise and understanding of the recruitment market as well as the career development journey of Vietnamese people. Each individual plays a strategic role in PATHWAY's comprehensive service ecosystem.",
+      "social": {
+        "linkedInAria": "LinkedIn Profile",
+        "emailAria": "Send Email"
+      }
+    },
+    "teamMembers": {
+      "member1": {
+        "name": "Nguyen Thi Minh",
+        "position": "Founder & CEO",
+        "bio": "With more than 15 years of experience in the field of recruitment and human resource training, Ms. Minh is the founder and main operator, the one who inspires, builds a humane, practical, and results-oriented corporate culture, guaranteeing the long-term vision and consistent service quality."
+      },
+      "member2": {
+        "name": "Tran Duc Anh",
+        "position": "Head of Career Consulting Team",
+        "bio": "Formerly a consultant at multinational companies, Mr. Duc Anh brings a modern and logical perspective to career building, applying coaching methods to help clients understand themselves deeply and become more self-motivated in the long-term orientation."
+      },
+      "member3": {
+        "name": "La Hoang Mai",
+        "position": "CV and LinkedIn Expert",
+        "bio": "Ms. Hoang Mai directly helps clients upgrade their personal profiles to conquer employers. Her sharp content editing skills have helped double the client's interview response rate."
+      },
+      "member4": {
+        "name": "Pham Van Tuan",
+        "position": "Interview Coach",
+        "bio": "Having held the position of recruiting manager at Fortune 500 corporations, Mr. Tuan coaches clients in a direct and practical way from an employer's perspective, helping them overcome difficult selection rounds with solid preparation and confidence."
+      }
+    },
+    "ourPartnersSection": {
+      "title": "Our Partners",
+      "description": "One of the clearest pieces of evidence of PATHWAY's reputation and capacity is the system of partners that this organization cooperates with, including global technology \"giants\".",
+      "partnerLogos": [
+        { "alt": "Google Logo" },
+        { "alt": "Apple Logo" },
+        { "alt": "Microsoft Logo" },
+        { "alt": "Amazon Logo" },
+        { "alt": "Netflix Logo" },
+        { "alt": "Facebook Logo" },
+        { "alt": "LinkedIn Logo" }
+      ]
+    },
+    "achievementsSection": {
+      "title": "Achievements",
+      "description": "",
+      "achievement1": {
+        "title": "Top 10 Career Consulting Units 2022",
+        "description": "Voted by the Ho Chi Minh City Business Association, this title is a testament to the quality of service, market reputation, and practical effectiveness of PATHWAY in supporting career orientation for young people."
+      },
+      "achievement2": {
+        "title": "Outstanding Startup 2021 – Vietnam Startup Award",
+        "description": "The award from VnExpress affirms that PATHWAY is not only good at expertise, but also possesses innovative startup thinking, with a business model with social value and potential for expansion."
+      },
+      "achievement3": {
+        "title": "Community Enterprise 2023",
+        "description": "This title emphasizes PATHWAY's social responsibility through organizing free training activities for students, demonstrating a vision of sustainable development."
+      }
+    },
+    "communityProgramsSection": {
+      "title": "Community Programs",
+      "description": "",
+      "program1": {
+        "imageAlt": "Image of a workshop for students",
+        "title": "Workshops for students",
+        "description": "Organizing more than 50 free workshops at universities nationwide, popularizing career knowledge, and preparing necessary soft skills and career thinking for students before entering the labor market."
+      },
+      "program2": {
+        "imageAlt": "Image of the PATHWAY Scholarship program",
+        "title": "PATHWAY Scholarship",
+        "description": "Offering 20 scholarships per year for students in difficult circumstances, including training courses and internship opportunities at partner units, opening career doors."
+      },
+      "program3": {
+        "imageAlt": "Image of career guidance program in remote areas",
+        "title": "Career guidance in remote areas",
+        "description": "Providing free career counseling for students in remote areas, demonstrating the spirit of enlightenment and equal opportunity, ensuring no one is left behind in the journey of discovering and building the future."
+      }
+    },
+    "ctaSection": {
+      "title": "Join PATHWAY",
+      "description": "Whether you are looking for a new career direction or want to enhance your professional standing, the PATHWAY team is always ready to accompany and support you.",
+      "primaryButton": "Schedule a Consultation",
+      "secondaryButton": "Contact Us"
+    }
+  },
+
+  "HomePage": {
+    "hero": {
+      "mainTitle": "PATHWAY",
+      "subTitle": "CV Review, Job Search Strategy, Career Consulting",
+      "tagline": "Over 1000+ Professionals have advanced their careers with our support",
+      "button1_text": "Schedule a Consultation",
+      "button2_text": "Watch Success Stories"
+    },
+    "introduction": {
+      "title": "Your Career Journey Starts Here",
+      "paragraph": "<strong>PATHWAY</strong> is a leading provider of <strong>CV optimization and job search strategy services</strong>. We pride ourselves on offering comprehensive support to professionals at <strong>all career stages</strong>. Our team includes career consultants, HR specialists, and industry insiders who combine deep expertise in <strong>resume writing</strong> with creative thinking in <strong>personal branding</strong>.",
+      "card1_alt": "Pathway Mission",
+      "card1_title": "Mission",
+      "card1_description": "Empowering professionals with the tools, strategies, and confidence needed to stand out in a competitive job market and achieve their career goals.",
+      "card2_alt": "Pathway Vision",
+      "card2_title": "Vision",
+      "card2_description": "To be the leading career services provider, transforming how people approach job searching, creating a world where everyone can reach their full career potential.",
+      "card3_alt": "Pathway Methodology",
+      "card3_title": "Methodology",
+      "card3_description": "We believe in customized solutions that emphasize each individual's unique value. Data-driven strategies and personalized consultations create meaningful career breakthroughs."
+    },
+    "ourDistinctMissionSection": {
+      "title": "OUR MISSION",
+      "item1_alt": "Spread brand value",
+      "item1_text": "Spreading the brand values of organizations and businesses to the community.",
+      "item2_alt": "Increase awareness",
+      "item2_text": "Increasing customer awareness, trust, and preference for Products/Services.",
+      "item3_alt": "Market orientation",
+      "item3_text": "Orienting the market with advertising trends according to international standards."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "image_alt": "PATHWAY career consulting team",
+      "paragraph1": "<strong>PATHWAY</strong> combines expertise in <strong>CV writing, interview coaching, and career strategy</strong>. We are committed to providing personalized support to professionals at all levels.",
+      "paragraph2": "With over 15 years of experience, our team has helped professionals secure positions at top companies such as Google, Microsoft, Amazon, Meta, Goldman Sachs, McKinsey, Deloitte, and many other Fortune 500 organizations across all industries and roles.",
+      "stat1_value": "15+",
+      "stat1_label": "Years of Experience",
+      "stat2_value": "1000+",
+      "stat2_label": "Success Stories",
+      "stat3_value": "93%",
+      "stat3_label": "Interview Rate"
+    },
+    "servicesSection": {
+      "title": "Our Services",
+      "service1_title": "CV Review",
+      "service1_description": "Receive detailed feedback and editing suggestions to make your CV stand out.",
+      "service2_title": "LinkedIn Optimization",
+      "service2_description": "Improve your LinkedIn profile to attract recruiters and job opportunities.",
+      "service3_title": "Mock Interview",
+      "service3_description": "Practice interviewing with experts to confidently apply for your dream position.",
+      "learnMoreButton": "Learn More"
+    },
+    "projectsSection": {
+      "title": "Featured Projects",
+      "video_tvc_quang_cao": "Advertising TVC",
+      "video_phim_doanh_nghiep": "Corporate Film",
+      "video_phim_viral": "Viral Film",
+      "video_phim_thuong_hieu": "Brand Film",
+      "video_tvc_san_pham": "Product TVC",
+      "video_phim_du_an": "Project Film"
+    },
+    "testimonialSection": {
+      "title": "WHAT OUR CLIENTS SAY ABOUT PATHWAY?",
+      "arrow_left": "<<",
+      "arrow_right": ">>",
+      "card1_avatar_alt": "Client Avatar",
+      "card1_quote": "“With PATHWAY's professional support, my CV was significantly improved. The experts helped me identify my strengths and present information effectively. As a result, I received more interview invitations and ultimately landed my dream position at a top company.”",
+      "card1_author": "Mr. Nguyen Minh Tuan",
+      "card1_role": "Senior Developer - TechVision Corporation"
+    },
+    "clientLogosSection": {
+      "title": "Our Clients",
+      "logo_google_alt": "Google Logo",
+      "logo_apple_alt": "Apple Logo",
+      "logo_microsoft_alt": "Microsoft Logo",
+      "logo_amazon_alt": "Amazon Logo",
+      "logo_netflix_alt": "Netflix Logo",
+      "logo_linkedin_alt": "LinkedIn Logo",
+      "logo_tcs_alt": "TCS Logo",
+      "logo_accenture_alt": "Accenture Logo"
+    }
+  },
+  "ServicePage": {
+    "pageBanner": {
+      "title": "Services",
+      "subtitle": "Professional consulting solutions to help you advance your career"
+    },
+    "overview": {
+      "title": "Comprehensive Solutions for Your Career",
+      "description": "PATHWAY offers professional career consulting services tailored for each stage of development. From fresh graduates to senior experts, we accompany you on your career path.",
+      "stat1_value": "95%",
+      "stat1_label": "Client Satisfaction",
+      "stat2_value": "85%",
+      "stat2_label": "Success Rate",
+      "stat3_value": "5000+",
+      "stat3_label": "Clients",
+      "ctaButton": "Schedule a Free Consultation",
+      "imageAlt": "PATHWAY Services"
+    },
+    "serviceList": {
+      "title": "Our Services",
+      "description": "Discover professional services designed to help you achieve your career goals",
+      "learnMoreButton": "Learn More"
+    },
+    "services": {
+      "service1": {
+        "title": "In-depth CV Review",
+        "description": "Your CV reviewed and edited by recruitment experts to optimize your interview chances.",
+        "feature1": "Detailed analysis of strengths and weaknesses",
+        "feature2": "Advice on structure and content",
+        "feature3": "Suggestions for industry-specific keywords",
+        "feature4": "Detailed evaluation report"
+      },
+      "service2": {
+        "title": "Interview & Orientation Consulting",
+        "description": "Prepare effective interview skills and strategies, increasing your success rate with employers.",
+        "feature1": "Mock interview with detailed feedback",
+        "feature2": "Techniques for answering tough questions",
+        "feature3": "Presentation skills practice",
+        "feature4": "Career development orientation"
+      },
+      "service3": {
+        "title": "Personal Branding",
+        "description": "Build a professional and outstanding image in the job market and on online platforms.",
+        "feature1": "LinkedIn profile optimization",
+        "feature2": "Brand building strategy",
+        "feature3": "Professional portfolio creation",
+        "feature4": "Network development plan"
+      },
+      "service4": {
+        "title": "Soft Skills Training",
+        "description": "Develop essential skills to help you excel in the modern work environment.",
+        "feature1": "Professional communication skills",
+        "feature2": "Teamwork & leadership",
+        "feature3": "Time & stress management",
+        "feature4": "Critical thinking & problem solving"
+      }
+    },
+    "process": {
+      "title": "Our Working Process",
+      "description": "We follow a professional process to ensure maximum efficiency",
+      "step1": {
+        "title": "Initial Consultation",
+        "description": "Analyze your needs and career goals to propose the most suitable solution"
+      },
+      "step2": {
+        "title": "Plan Development",
+        "description": "Design a detailed roadmap and action plan based on your specific situation"
+      },
+      "step3": {
+        "title": "Service Implementation",
+        "description": "Deploy consulting, training, and support activities according to the agreed plan"
+      },
+      "step4": {
+        "title": "Monitoring & Evaluation",
+        "description": "Measure results and adjust strategies to ensure achievement of set goals"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "testimonial1": {
+        "name": "Nguyen Thanh Ha",
+        "position": "Marketing Manager at Tech Corp",
+        "content": "PATHWAY's CV review service significantly improved my resume. Within just 2 weeks, I received multiple interview invitations from top companies."
+      },
+      "testimonial2": {
+        "name": "Tran Minh Duc",
+        "position": "Software Developer at FinTech Solutions",
+        "content": "The mock interview consultation boosted my confidence immensely. The coach's analysis of my strengths and weaknesses, along with their advice, was very practical and effective."
+      },
+      "testimonial3": {
+        "name": "Le Thi Phuong",
+        "position": "HR Specialist at Global Group",
+        "content": "I took the personal branding course and saw a clear change in how recruiters perceived my profile. Worth every penny!"
+      }
+    },
+    "pricing": {
+      "title": "Service Pricing",
+      "description": "We offer flexible service packages to suit all needs and budgets",
+      "currency": "USD",
+      "signUpButton": "Sign Up Now",
+      "contactForQuoteMessage": "Please contact us for a detailed quote",
+      "contactButton": "Contact for Consultation",
+      "tab1_title": "CV Review",
+      "package1": {
+        "tag": "Popular",
+        "title": "Basic Package",
+        "price": "25",
+        "feature1": "Comprehensive CV review",
+        "feature2": "Detailed report",
+        "feature3": "Improvement suggestions",
+        "feature4_disabled": "CV editing",
+        "feature5_disabled": "1-on-1 expert consultation"
+      },
+      "package2": {
+        "tag": "Recommended",
+        "title": "Advanced Package",
+        "price": "45",
+        "feature1": "Comprehensive CV review",
+        "feature2": "Detailed report",
+        "feature3": "Improvement suggestions",
+        "feature4": "CV editing",
+        "feature5_disabled": "1-on-1 expert consultation"
+      },
+      "package3": {
+        "tag": "Premium",
+        "title": "VIP Package",
+        "price": "75",
+        "feature1": "Comprehensive CV review",
+        "feature2": "Detailed report",
+        "feature3": "Improvement suggestions",
+        "feature4": "CV editing",
+        "feature5": "1-on-1 expert consultation (60 mins)"
+      },
+      "tab2_title": "Interview Consulting",
+      "tab3_title": "Personal Branding"
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Career?",
+      "description": "Schedule a free 15-minute consultation with a PATHWAY expert today to find the best solution for your career goals.",
+      "button1_text": "Schedule Now",
+      "button2_text": "Learn More"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "item1": {
+        "question": "What do I get from the CV review service?",
+        "answer": "You will receive a detailed evaluation report on the strengths and weaknesses of your current CV, along with specific suggestions to improve content, structure, and formatting. Depending on the service package, you may also receive a CV edited by an expert and a 1-on-1 consultation session."
+      },
+      "item2": {
+        "question": "How does the mock interview consultation work?",
+        "answer": "The mock interview consultation includes a simulated interview based on the position you are applying for. Afterward, the expert will assess and provide detailed feedback on your answers, body language, communication skills, and specific improvement suggestions."
+      },
+      "item3": {
+        "question": "Who is the personal branding service for?",
+        "answer": "This service is suitable for both new professionals looking to build a professional image and senior experts wanting to enhance their industry standing. We will customize the strategy to fit your experience level and specific goals."
+      },
+      "item4": {
+        "question": "Can I request consultation for a specific industry?",
+        "answer": "Yes, PATHWAY's consulting team has experience in various fields such as IT, finance, marketing, engineering, etc. We will connect you with an expert experienced in your industry to ensure relevant and practical advice."
+      }
+    }
+  },
+  "FeaturedProjectsPage": {
+    "pageBanner": {
+      "title": "Featured Projects",
+      "subtitle": "Discover outstanding projects that have helped our clients achieve their career goals"
+    },
+    "categoryTabs": {
+      "all": "All Projects",
+      "corporate": "Corporate",
+      "executive": "Executive Level",
+      "education": "Education",
+      "tools": "Tools & Methodologies"
+    },
+    "projectDetails": {
+      "clientLabel": "Client:",
+      "resultsTitle": "Achieved Results",
+      "detailsButton": "View Details"
+    },
+    "projects": {
+      "project1": {
+        "title": "Successful Career Transition for 200 Bank Employees",
+        "description": "Consulting and coaching project for career transition of bank employees after restructuring. 89% found new jobs within 3 months.",
+        "client": "Orient Commercial Joint Stock Bank",
+        "date": "June - December, 2022",
+        "tag1": "Career Transition",
+        "tag2": "Job Coaching",
+        "tag3": "CV Development",
+        "result1": "89% of participants found new jobs within 3 months",
+        "result2": "95% reported satisfaction with the program",
+        "result3": "78% experienced an increase in salary compared to their previous positions"
+      },
+      "project2": {
+        "title": "Building Personal Branding Strategy for Leadership Team",
+        "description": "Consulting project to build personal brands for 25 senior leaders of a multinational corporation, helping them enhance their LinkedIn presence and become thought leaders in the industry.",
+        "client": "Samsung Vietnam Corporation",
+        "date": "March - August, 2022",
+        "tag1": "Personal Branding",
+        "tag2": "LinkedIn",
+        "tag3": "Thought Leadership",
+        "result1": "Average 217% increase in LinkedIn connections after 6 months",
+        "result2": "15 leaders invited as speakers at industry events",
+        "result3": "320% increase in engagement on posts"
+      },
+      "project3": {
+        "title": "Interview Skills Training Program for Graduating Students",
+        "description": "Collaborative project with a university to organize a series of workshops on interview skills, CV preparation, and career orientation for 500 final-year students.",
+        "client": "Ho Chi Minh City University of Technology",
+        "date": "April - May, 2023",
+        "tag1": "Student Training",
+        "tag2": "Interview Skills",
+        "tag3": "CV Preparation",
+        "result1": "500+ students trained through 10 workshops",
+        "result2": "72% of students found employment within 2 months of graduation",
+        "result3": "Average satisfaction score of 4.8/5"
+      },
+      "project4": {
+        "title": "HR Department Restructuring and Recruitment Process Optimization",
+        "description": "Consulting project to support HR department restructuring, build new recruitment processes, and train the recruitment team according to international standards.",
+        "client": "FPT Corporation",
+        "date": "January - May, 2022",
+        "tag1": "HR Restructuring",
+        "tag2": "Recruitment Process",
+        "tag3": "HR Training",
+        "result1": "35% reduction in recruitment time",
+        "result2": "28% increase in employee retention after 1 year",
+        "result3": "42% increase in candidate satisfaction index"
+      },
+      "project5": {
+        "title": "Development of Competency Assessment Toolkit for the Tech Industry",
+        "description": "Developed a comprehensive competency assessment toolkit for IT positions, including technical tests, behavioral interviews, and cultural fit assessments.",
+        "client": "VNG Corporation",
+        "date": "September, 2022 - February, 2023",
+        "tag1": "Competency Assessment",
+        "tag2": "Information Technology",
+        "tag3": "Recruitment",
+        "result1": "47% reduction in hiring mismatches",
+        "result2": "23% increase in the quality of candidates reaching the final interview stage",
+        "result3": "30% savings in recruitment costs"
+      },
+      "project6": {
+        "title": "Young Talent Leadership Coaching Program",
+        "description": "A 6-month program to develop 30 young talented leaders through 1-on-1 coaching, seminars, and practical projects, preparing them for higher management positions.",
+        "client": "Unilever Vietnam",
+        "date": "July, 2022 - January, 2023",
+        "tag1": "Leadership Development",
+        "tag2": "Coaching",
+        "tag3": "Talent Management",
+        "result1": "87% of participants promoted within 12 months",
+        "result2": "42% increase in the engagement index of the talent group",
+        "result3": "35% reduction in turnover rate among high-potential employees"
+      }
+    },
+    "noProjects": {
+      "title": "No projects found in this category.",
+      "button": "View All Projects"
+    },
+    "statsSection": {
+      "stat1_number": "100+",
+      "stat1_title": "Projects Completed",
+      "stat1_desc": "Consulting and training projects for corporate and individual partners",
+      "stat2_number": "87%",
+      "stat2_title": "Returning Clients",
+      "stat2_desc": "Percentage of clients who continue to use our services for subsequent projects",
+      "stat3_number": "20+",
+      "stat3_title": "Industries Served",
+      "stat3_desc": "Diverse work experience across various sectors from technology to finance and manufacturing"
+    },
+    "testimonialSection": {
+      "title": "What Our Clients Say About Us",
+      "testimonial1": {
+        "quote": "PATHWAY helped our HR team build a more effective recruitment process. We reduced the time to find suitable candidates by 40% and increased hiring quality.",
+        "authorName": "Tran Thi Minh",
+        "authorTitle": "HR Director, FPT Software"
+      },
+      "testimonial2": {
+        "quote": "PATHWAY's coaching program helped me clarify my development direction and build an effective personal brand. As a result, I secured my desired position at a multinational company.",
+        "authorName": "Nguyen Van Hung",
+        "authorTitle": "Marketing Director, Unilever"
+      },
+      "testimonial3": {
+        "quote": "I was very impressed with PATHWAY's professional working method. The interview skills workshops provided practical value to our students, helping them become more confident when entering the job market.",
+        "authorName": "Le Thi Huong",
+        "authorTitle": "Head of Student Support, University of Technology"
+      }
+    },
+    "cta": {
+      "title": "Tell us about your project",
+      "description": "We are ready to listen and propose solutions tailored to the specific needs of your business or individual goals.",
+      "button1_text": "Contact Us Now",
+      "button2_text": "View More Services"
+    }
+  },
+  "PricingPage": {
+    "pageBanner": {
+      "title": "Service Pricing",
+      "subtitle": "Choose the service package that best suits your needs and budget"
+    },
+    "intro": {
+      "title": "Invest in Your Career",
+      "description": "PATHWAY offers a range of services tailored to different career stages. Whether you're a fresh graduate or a senior manager, we have the right solution for you."
+    },
+    "plans": {
+      "plan1": {
+        "title": "BASIC PACKAGE",
+        "price": "499,000 VND",
+        "originalPrice": "799,000 VNĐ",
+        "description": "Suitable for: Beginners who want to know the current status of their CV and what needs adjustment.",
+        "feature1": "Comprehensive CV evaluation",
+        "feature2": "Detailed report on strengths and weaknesses",
+        "feature3": "Specific improvement suggestions",
+        "feature4": "Response time: 3 days",
+        "feature5": "Email support"
+      },
+      "plan2": {
+        "title": "ADVANCED PACKAGE",
+        "price": "899,000 VND",
+        "originalPrice": "1,499,000 VNĐ",
+        "description": "Suitable for: Those who need to strengthen their CV to apply for positions quickly.",
+        "feature1": "All benefits of the Basic Package",
+        "feature2": "CV editing based on feedback",
+        "feature3": "Response time: 2 days",
+        "feature4": "1-month support",
+        "feature5": "Email support"
+      },
+      "plan3": {
+        "title": "VIP PACKAGE",
+        "price": "1,499,000 VND",
+        "originalPrice": "2,990,000 VNĐ",
+        "description": "Suitable for: Individuals aiming for high-level positions who need maximum personalization and direct guidance.",
+        "feature1": "All benefits of the Advanced Package",
+        "feature2": "1-on-1 consultation with an expert (60 minutes)",
+        "feature3": "Career direction analysis, CV adjustments according to specific goals, and Q&A",
+        "feature4": "Response time: 24 hours",
+        "feature5": "3-month support",
+        "feature6": "Money-back guarantee if not satisfied"
+      },
+      "popularTag": "Most Popular",
+      "selectButton": "Select This Plan"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "item1": {
+        "question": "How long will it take to receive the service after payment?",
+        "answer": "After payment confirmation, we will contact you within 24 hours to start the process. Detailed response time depends on the service package you choose."
+      },
+      "item2": {
+        "question": "Can I upgrade my service package after purchase?",
+        "answer": "Yes, you can upgrade your service package at any time. You only need to pay the difference between your current package and the one you wish to upgrade to."
+      },
+      "item3": {
+        "question": "What is PATHWAY's refund policy?",
+        "answer": "PATHWAY commits to a 100% refund if you are not satisfied with our service within the first 7 days (applies to the VIP Package)."
+      },
+      "item4": {
+        "question": "Are there other payment methods besides bank transfer?",
+        "answer": "Currently, we support payment via bank transfer, Momo, ZaloPay, and VNPAY. Please contact us if you require other payment methods."
+      }
+    },
+    "cta": {
+      "title": "Need More Advice?",
+      "description": "Contact a PATHWAY consultant to get help choosing the most suitable service package.",
+      "button": "Contact Us Now"
+    }
+  },
+  "BlogPage": {
+    "pageBanner": {
+      "title": "Blog",
+      "subtitle": "Knowledge, insights, and career development guidance from PATHWAY's team of experts"
+    },
+    "filters": {
+      "searchPlaceholder": "Search articles...",
+      "allTopics": "All Topics",
+      "career": "Career",
+      "cv": "CV & Resume",
+      "interview": "Interview",
+      "personalBranding": "Personal Branding",
+      "salary": "Salary Negotiation",
+      "careerChange": "Career Change"
+    },
+    "blogPosts": {
+      "post1": {
+        "title": "10 Essential Skills for a Career in the Digital Age",
+        "excerpt": "Discover the crucial skills employers are looking for in today's digital technology era.",
+        "author": "Nguyen Van A",
+        "tag1": "soft skills",
+        "tag2": "technology",
+        "tag3": "lifelong learning"
+      },
+      "post2": {
+        "title": "How to Get Your CV Past ATS Software?",
+        "excerpt": "A detailed guide to help your CV pass through employers' automated resume screening and filtering software.",
+        "author": "Tran Thi B",
+        "tag1": "ATS",
+        "tag2": "CV",
+        "tag3": "recruitment"
+      },
+      "post3": {
+        "title": "5 Common Mistakes in Job Interviews",
+        "excerpt": "Common errors that can cost you job opportunities and effective ways to overcome them.",
+        "author": "Le Van C",
+        "tag1": "interview",
+        "tag2": "communication skills",
+        "tag3": "preparation"
+      },
+      "post4": {
+        "title": "Building Your Personal Brand on LinkedIn",
+        "excerpt": "A comprehensive strategy to create and develop a professional image on the leading job networking site.",
+        "author": "Pham Thi D",
+        "tag1": "LinkedIn",
+        "tag2": "social media",
+        "tag3": "personal branding"
+      },
+      "post5": {
+        "title": "How to Negotiate Salary Effectively",
+        "excerpt": "Strategies and techniques to help you confidently negotiate a salary worthy of your abilities.",
+        "author": "Vu Hoang E",
+        "tag1": "negotiation",
+        "tag2": "salary",
+        "tag3": "self-worth"
+      },
+      "post6": {
+        "title": "Career Change at 30+: It's Never Too Late",
+        "excerpt": "A guide for those looking to change careers in adulthood.",
+        "author": "Nguyen Thi F",
+        "tag1": "career change",
+        "tag2": "new skills",
+        "tag3": "orientation"
+      }
+    },
+    "subscribeSection": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Receive the latest articles and advice from PATHWAY experts weekly",
+      "emailPlaceholder": "Your Email",
+      "subscribeButton": "Subscribe"
+    }
+  },
+
+  "ContactPage": {
+    "pageBanner": {
+      "title": "Contact Us",
+      "subtitle": "Connect with us for support and advice on your career"
+    },
+    "formSection": {
+      "title": "Send Us a Message",
+      "description": "Have questions or need advice? Fill out the form below, and the PATHWAY team will respond as soon as possible.",
+      "labels": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "email": "Enter your email address",
+        "subject": "Enter message subject",
+        "message": "Your message content..."
+      },
+      "validation": {
+        "fullNameRequired": "Please enter your full name",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Invalid email address",
+        "subjectRequired": "Please enter the subject",
+        "messageRequired": "Please enter your message"
+      },
+      "submitButton": "Send Message",
+      "submitSuccess": "Your message has been sent successfully!",
+      "submitError": "An error occurred. Please try again later!"
+    },
+    "infoSection": {
+      "title": "Contact Information",
+      "description": "Contact us directly through the following methods:",
+      "addressTitle": "Address",
+      "addressContent": "28 Nguyen Trai, District 1, Ho Chi Minh City",
+      "phoneTitle": "Phone",
+      "phoneContent": "(+84) 28 1234 5678",
+      "emailTitle": "Email",
+      "emailContent": "info@pathway.vn",
+      "hoursTitle": "Working Hours",
+      "hoursContent": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "followUsTitle": "Follow Us"
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "item1": {
+        "question": "How can I schedule a consultation?",
+        "answer": "You can schedule a consultation through the contact form on our website, by calling us directly, or by sending us an email. The PATHWAY team will contact you within 24 hours to confirm the appointment."
+      },
+      "item2": {
+        "question": "Can I visit the office without a prior appointment?",
+        "answer": "To ensure the best quality of consultation, we encourage scheduling an appointment in advance. However, you can visit our office during working hours to learn more about our services."
+      },
+      "item3": {
+        "question": "Does PATHWAY offer online consultation services?",
+        "answer": "Yes, we offer online consultation services via Zoom, Google Meet, or other platforms according to the client's needs."
+      },
+      "item4": {
+        "question": "How can I get a detailed service quote?",
+        "answer": "You can view basic pricing information on our Pricing page. To receive a detailed quote tailored to your specific needs, please contact us directly."
+      }
+    }
+  },
+  "Header": {
+    "logoAlt": "Pathway Logo",
+    "menu": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "contact": "Contact"
+    }
+  },
+
+  "Footer": {
+    "logoAlt": "PATHWAY Logo",
+    "aboutText": "PATHWAY is a leader in career consulting, helping professionals develop sustainable careers through CV review, interview coaching, and career orientation services.",
+    "socialLabels": {
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "youtube": "YouTube",
+      "zalo": "Zalo",
+      "callNow": "Call Now"
+    },
+    "linksServicesTitle": "Services",
+    "serviceLinks": {
+      "cvReview": "CV Review",
+      "interviewCoaching": "Interview Coaching",
+      "careerConsulting": "Career Consulting",
+      "linkedinOptimization": "LinkedIn Optimization",
+      "softSkillsTraining": "Soft Skills Training"
+    },
+    "linksInformationTitle": "Information",
+    "informationLinks": {
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "contactInfoTitle": "Contact",
+    "contactDetails": {
+      "mainOfficeLabel": "Main Office:",
+      "mainOfficeAddress": "28 Nguyen Trai, District 1, HCMC",
+      "hotlineLabel": "Hotline:",
+      "hotlineNumber": "0909 123 456",
+      "emailLabel": "Email:",
+      "emailAddress": "contact@pathway.vn"
+    },
+    "newsletter": {
+      "title": "Subscribe to Newsletter",
+      "description": "Get the latest career news and job opportunities",
+      "emailPlaceholder": "Your Email",
+      "subscribeButton": "Subscribe",
+      "submitSuccess": "Your request has been sent successfully!",
+      "validation": {
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Invalid email address"
+      }
+    },
+    "bottom": {
+      "copyright": "© {currentYear} PATHWAY. All rights reserved.",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies"
+    }
+  },
+  "BookingHistory": {
+    "title": "Booking History",
+    "empty": "You have no bookings yet",
+    "status": {
+      "completed": "Completed",
+      "upcoming": "Upcoming",
+      "cancelled": "Cancelled",
+      "unknown": "Unknown"
+    },
+    "table": {
+      "service": "Service",
+      "date": "Date",
+      "time": "Time",
+      "coach": "Coach",
+      "status": "Status",
+      "amount": "Amount",
+      "action": "Action",
+      "summary": "Details"
+    },
+    "action": {
+      "view": "View details",
+      "cancel": "Cancel Booking"
+    }
+  },
+   "ProfilePage": {
+    "title": "Profile Information",
+    "loading": "Loading user information...",
+    "notLoggedIn": {
+      "title": "You need to sign in to view this page",
+      "loginButton": "Sign In"
+    },
+    "tabs": {
+      "info": "Personal Info",
+      "history": "Booking History",
+      "wallet": "Wallet"
+    },
+    "wallet": {
+      "balanceLabel": "Account Balance",
+      "topUp": "Top Up"
+    }
+  },
+  "UserInfo": {
+  "title": "Personal Information",
+  "edit": "Edit",
+  "save": "Save Information",
+  "submit": "Save Changes",
+  "cancel": "Cancel",
+  "success": "Information updated successfully!",
+  "fullName": "Full Name",
+  "email": "Email",
+  "phone": "Phone Number",
+  "address": "Address",
+  "requiredFullName": "Please enter your full name",
+  "requiredEmail": "Please enter your email",
+  "invalidEmail": "Invalid email format",
+  "requiredPhone": "Please enter your phone number",
+  "notUpdated": "Not updated"
+},
+"WalletSection": {
+    "transactionHistoryTitle": "Transaction History",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "description": "Description",
+      "status": "Status",
+      "transactionSummary": "Transaction"
+    },
+    "transactionTypes": {
+      "topup": "Top-up",
+      "purchase": "Purchase",
+      "refund": "Refund",
+      "default": "Transaction"
+    },
+    "transactionStatuses": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "failed": "Failed",
+      "unknown": "Unknown"
+    },
+    "emptyDescription": "No transactions found",
+    "sampleTransactions": {
+      "sample1": {
+        "description": "Top-up via Momo"
+      },
+      "sample2": {
+        "description": "Service payment"
+      },
+      "sample3": {
+        "description": "Service refund"
+      },
+      "sample4": {
+        "description": "Top-up via bank transfer"
+      }
+    },
+     "mobileLabels":{
+        "date": "Date:",
+        "type": "Type:",
+        "amount": "Amount:",
+        "description": "Description:",
+        "status": "Status:"
+    }
+  },
+  "BookingReviewSection": {
+    "logoAlt": "PATHWAY Logo",
+    "title": "Schedule CV Review & Job Consultation",
+    "description": "Ready to elevate your career? Submit your CV for expert review or schedule a personal consultation with PATHWAY's career advisors. We'll help you stand out from the crowd and land your dream job.",
+    "successMessage": {
+      "title": "Thank you for contacting us!",
+      "paragraph": "We will respond within 24 working hours.",
+      "button": "Submit another request"
+    },
+    "form": {
+      "placeholders": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "position": "Current Position",
+        "description": "Briefly describe your career goals and how we can help"
+      },
+      "validation": {
+        "fullNameRequired": "Please enter your full name",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Invalid email address",
+        "phoneRequired": "Please enter your phone number",
+        "positionRequired": "Please enter your current position",
+        "descriptionRequired": "Please enter a description"
+      },
+      "submitButton": "Send Request",
+      "submittingButton": "Sending..."
+    },
+    "toast": {
+      "submitSuccess": "Your request has been sent successfully!",
+      "submitError": "An error occurred. Please try again later."
+    }
+  }
+}
