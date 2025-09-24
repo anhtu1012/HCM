@@ -518,52 +518,52 @@ class App {
   ) {
     const defaultItems = [
       {
-        image: `https://picsum.photos/seed/1/800/600?grayscale`,
-        text: "Bridge",
+        image: `/assets/image/khoanh1.jpeg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/2/800/600?grayscale`,
-        text: "Desk Setup",
+        image: `/assets/image/khoanh2.jpeg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/3/800/600?grayscale`,
-        text: "Waterfall",
+        image: `/assets/image/khoanh3.jpeg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/4/800/600?grayscale`,
-        text: "Strawberries",
+        image: `/assets/image/khoanh4.jpeg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/5/800/600?grayscale`,
-        text: "Deep Diving",
+        image: `/assets/image/khoanh5.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/16/800/600?grayscale`,
-        text: "Train Track",
+        image: `/assets/image/khoanh6.jpeg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/17/800/600?grayscale`,
-        text: "Santorini",
+        image: `/assets/image/khoanh7.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/8/800/600?grayscale`,
-        text: "Blurry Lights",
+        image: `/assets/image/khoanh8.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/9/800/600?grayscale`,
-        text: "New York",
+        image: `/assets/image/khoanh9.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/10/800/600?grayscale`,
-        text: "Good Boy",
+        image: `/assets/image/khoanh10.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/21/800/600?grayscale`,
-        text: "Coastline",
+        image: `/assets/image/khoanh11.jpg`,
+        text: "",
       },
       {
-        image: `https://picsum.photos/seed/12/800/600?grayscale`,
-        text: "Palm Trees",
+        image: `/assets/image/khoanh12.jpg`,
+        text: "",
       },
     ];
     const galleryItems = items && items.length ? items : defaultItems;

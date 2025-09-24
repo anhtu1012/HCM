@@ -446,65 +446,6 @@ const HomePage = () => {
           <div className="comparison-container" data-aos="fade-up">
             <Row gutter={[24, 24]}>
               <Col xs={24} md={12}>
-                <div className="comparison-card predecessors-card">
-                  <div className="card-header">
-                    <div className="card-icon">
-                      <Image
-                        src="/assets/image/Flags.png"
-                        alt="Predecessors"
-                        width={32}
-                        height={32}
-                      />
-                    </div>
-                    <Title level={3} className="card-title">
-                      {t("comparisonSection.predecessors")}
-                    </Title>
-                  </div>
-                  <div className="card-content">
-                    <div className="comparison-item">
-                      <div className="item-label">
-                        {t("comparisonSection.independence_goal")}
-                      </div>
-                      <div className="item-description">
-                        {t("comparisonSection.predecessors_independence")}
-                      </div>
-                    </div>
-                    <div className="comparison-item">
-                      <div className="item-label">
-                        {t("comparisonSection.path_method")}
-                      </div>
-                      <div className="item-description">
-                        {t("comparisonSection.predecessors_path")}
-                      </div>
-                    </div>
-                    <div className="comparison-item">
-                      <div className="item-label">
-                        {t("comparisonSection.revolutionary_force")}
-                      </div>
-                      <div className="item-description">
-                        {t("comparisonSection.predecessors_force")}
-                      </div>
-                    </div>
-                    <div className="comparison-item">
-                      <div className="item-label">
-                        {t("comparisonSection.struggle_method")}
-                      </div>
-                      <div className="item-description">
-                        {t("comparisonSection.predecessors_struggle")}
-                      </div>
-                    </div>
-                    <div className="comparison-item">
-                      <div className="item-label">
-                        {t("comparisonSection.international_relations")}
-                      </div>
-                      <div className="item-description">
-                        {t("comparisonSection.predecessors_international")}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={24} md={12}>
                 <div className="comparison-card hcm-card">
                   <div className="card-header">
                     <div className="card-icon">
@@ -558,6 +499,65 @@ const HomePage = () => {
                       </div>
                       <div className="item-description">
                         {t("comparisonSection.hcm_international")}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={24} md={12}>
+                <div className="comparison-card predecessors-card">
+                  <div className="card-header">
+                    <div className="card-icon">
+                      <Image
+                        src="/assets/image/Flags.png"
+                        alt="Predecessors"
+                        width={32}
+                        height={32}
+                      />
+                    </div>
+                    <Title level={3} className="card-title">
+                      {t("comparisonSection.predecessors")}
+                    </Title>
+                  </div>
+                  <div className="card-content">
+                    <div className="comparison-item">
+                      <div className="item-label">
+                        {t("comparisonSection.independence_goal")}
+                      </div>
+                      <div className="item-description">
+                        {t("comparisonSection.predecessors_independence")}
+                      </div>
+                    </div>
+                    <div className="comparison-item">
+                      <div className="item-label">
+                        {t("comparisonSection.path_method")}
+                      </div>
+                      <div className="item-description">
+                        {t("comparisonSection.predecessors_path")}
+                      </div>
+                    </div>
+                    <div className="comparison-item">
+                      <div className="item-label">
+                        {t("comparisonSection.revolutionary_force")}
+                      </div>
+                      <div className="item-description">
+                        {t("comparisonSection.predecessors_force")}
+                      </div>
+                    </div>
+                    <div className="comparison-item">
+                      <div className="item-label">
+                        {t("comparisonSection.struggle_method")}
+                      </div>
+                      <div className="item-description">
+                        {t("comparisonSection.predecessors_struggle")}
+                      </div>
+                    </div>
+                    <div className="comparison-item">
+                      <div className="item-label">
+                        {t("comparisonSection.international_relations")}
+                      </div>
+                      <div className="item-description">
+                        {t("comparisonSection.predecessors_international")}
                       </div>
                     </div>
                   </div>

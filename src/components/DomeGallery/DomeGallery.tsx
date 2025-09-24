@@ -37,32 +37,32 @@ type ItemDef = {
 
 const DEFAULT_IMAGES: ImageItem[] = [
   {
-    src: "https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Abstract art",
+    src: "/assets/image/tulieu1.jpg",
+    alt: "Hình ảnh lưu niệm Nguyễn Ái Quốc và những người bạn Pháp tại Paris vào năm 1921",
   },
   {
-    src: "https://images.unsplash.com/photo-1755569309049-98410b94f66d?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Modern sculpture",
+    src: "/assets/image/tulieu2.jpg",
+    alt: "Nguyễn Ái Quốc với nhân dân Moskva (Nga) trên đồi Chim Sẻ, trong thời gian tham dự Đại hội lần thứ V Quốc tế cộng sản (17-6/8-7-1924). Ảnh: Tư liệu/TTXVN",
   },
   {
-    src: "https://images.unsplash.com/photo-1755497595318-7e5e3523854f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Digital artwork",
+    src: "/assets/image/tulieu3.jpg",
+    alt: "Bác Hồ (Thầu Chín) và các đồng chí tại Thái Lan năm 1928. Thầu Chín là bí danh của lãnh tụ Nguyễn Ái Quốc hoạt động ở Xiêm, nay là Vương quốc Thái Lan, trong thời gian 1928-1929. Thầu là tiếng Thái-Lào, để gọi người nhiều tuổi và biểu thị sự tôn kính. Ảnh: Tư liệu/TTXVN ",
   },
   {
-    src: "https://images.unsplash.com/photo-1755353985163-c2a0fe5ac3d8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Contemporary art",
+    src: "/assets/image/tulieu4.jpg",
+    alt: "Hình ảnh trong chuyến hành trình tìm đường cứu nước của Bác từ ngày 25 đến 30-12-1920, chàng thanh niên yêu nước Nguyễn Ái Quốc (tên của Chủ tịch Hồ Chí Minh trong thời gian hoạt động cách mạng ở Pháp) tham dự Đại hội lần thứ 18 Đảng Xã hội Pháp ở thành phố Tours với tư cách đại biểu Đông Dương",
   },
   {
-    src: "https://images.unsplash.com/photo-1745965976680-d00be7dc0377?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Geometric pattern",
+    src: "/assets/image/tulieu5.jpeg",
+    alt: "Hình ảnh lưu niệm Nguyễn Ái Quốc và những người bạn Pháp tại Paris vào năm 1921",
   },
   {
-    src: "https://images.unsplash.com/photo-1752588975228-21f44630bb3c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Textured surface",
+    src: "/assets/image/tailieu6.jpeg",
+    alt: "Hình ảnh lưu niệm Nguyễn Ái Quốc và những người bạn Pháp tại Paris vào năm 1921",
   },
   {
-    src: "https://pbs.twimg.com/media/Gyla7NnXMAAXSo_?format=jpg&name=large",
-    alt: "Social media image",
+    src: "/assets/image/tulieu7.jpg",
+    alt: "Hình ảnh lưu niệm Nguyễn Ái Quốc và những người bạn Pháp tại Paris vào năm 1921",
   },
 ];
 

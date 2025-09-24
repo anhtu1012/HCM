@@ -8,9 +8,10 @@ import {
   CheckCircleFilled,
 } from "@ant-design/icons";
 import { Button, Card, Col, Form, Input, Row, Typography, message } from "antd";
-import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 import "./styles.scss";
+import { IoArrowBackCircle } from "react-icons/io5";
 
 const { Title, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -18,6 +19,7 @@ const { TextArea } = Input;
 function Page() {
   const [form] = Form.useForm();
   const [isSuccess, setIsSuccess] = React.useState(false);
+  const router = useRouter();
 
   const scrollToNextSection = () => {
     const nextSection = document.getElementById("second-section");
@@ -66,6 +68,17 @@ function Page() {
             height: "100%",
           }}
         >
+          <IoArrowBackCircle
+            onClick={() => router.push("/")}
+            size={40}
+            style={{
+              position: "absolute",
+              top: "5px",
+              left: "5px",
+              zIndex: 10,
+              cursor: "pointer",
+            }}
+          />
           <DomeGallery />
 
           {/* Scroll Down Button */}
@@ -115,84 +128,55 @@ function Page() {
             <Row gutter={[40, 40]} align="middle">
               {/* Image Gallery Column */}
               <Col xs={24} lg={14}>
-                <div className="image-gallery">
-                  <div className="main-image-container">
-                    <Image
-                      src="/assets/image/bacho.jpg"
-                      alt="Chủ tịch Hồ Chí Minh"
-                      width={600}
-                      height={400}
-                      style={{
-                        width: "100%",
-                        height: "400px",
-                        objectFit: "cover",
-                        borderRadius: "20px",
-                      }}
-                      className="main-image"
-                    />
-                    <div className="image-overlay">
-                      <Title level={3} style={{ color: "white", margin: 0 }}>
-                        Chủ tịch Hồ Chí Minh (1890-1969)
-                      </Title>
-                      <Paragraph
-                        style={{
-                          color: "rgba(255,255,255,0.9)",
-                          margin: "10px 0 0 0",
-                        }}
-                      >
-                        Vị lãnh tụ vĩ đại của dân tộc Việt Nam
-                      </Paragraph>
-                    </div>
-                  </div>
-
-                  <Row gutter={[16, 16]} style={{ marginTop: "20px" }}>
-                    <Col xs={8}>
-                      <div className="sub-image">
-                        <Image
-                          src="/assets/image/lanto.jpg"
-                          alt="Lãnh tụ"
-                          width={200}
-                          height={150}
-                          style={{
-                            width: "100%",
-                            height: "150px",
-                            objectFit: "cover",
-                            borderRadius: "15px",
-                          }}
-                        />
-                      </div>
+                <div className="video-gallery">
+                  <Row gutter={[16, 16]}>
+                    <Col xs={24}>
+                      <iframe
+                        width="100%"
+                        height="400"
+                        src="https://www.youtube.com/embed/Qo4G0ejsB8U"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        style={{ borderRadius: "20px" }}
+                      ></iframe>
                     </Col>
                     <Col xs={8}>
-                      <div className="sub-image">
-                        <Image
-                          src="/assets/image/tangcao.jpg"
-                          alt="Tầng cao"
-                          width={200}
-                          height={150}
-                          style={{
-                            width: "100%",
-                            height: "150px",
-                            objectFit: "cover",
-                            borderRadius: "15px",
-                          }}
-                        />
-                      </div>
+                      <iframe
+                        width="100%"
+                        height="150"
+                        src="https://www.youtube.com/embed/mNEkSC795yg"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        style={{ borderRadius: "15px" }}
+                      ></iframe>
                     </Col>
                     <Col xs={8}>
-                      <div className="sub-image">
-                        <Image
-                          src="/assets/image/vanhoa.jpg"
-                          alt="Văn hóa"
-                          width={200}
-                          height={150}
-                          style={{
-                            width: "100%",
-                            height: "150px",
-                            objectFit: "cover",
-                            borderRadius: "15px",
-                          }}
-                        />
-                      </div>
+                      <iframe
+                        width="100%"
+                        height="150"
+                        src="https://www.youtube.com/embed/cIIeezm-zVY"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        style={{ borderRadius: "15px" }}
+                      ></iframe>
+                    </Col>
+                    <Col xs={8}>
+                      <iframe
+                        width="100%"
+                        height="150"
+                        src="https://www.youtube.com/embed/cIIeezm-zVY"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        style={{ borderRadius: "15px" }}
+                      ></iframe>
                     </Col>
                   </Row>
                 </div>

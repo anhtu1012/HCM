@@ -1,15 +1,17 @@
 "use client";
 
-import React, { useState, useEffect, useRef, useCallback } from "react";
-import "./index.scss";
+import confetti from "canvas-confetti";
+import { useRouter } from "next/navigation";
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { GiAntiAircraftGun } from "react-icons/gi";
+import { IoArrowBackCircle } from "react-icons/io5";
+import { GameArena, QuizModal, WinModal } from "./components";
 import {
   animateShot,
   calculateBarrelTip,
   calculateVelocity,
 } from "./gameLogic";
-import { GameArena, QuizModal, WinModal } from "./components";
-import { GiAntiAircraftGun } from "react-icons/gi";
-import confetti from "canvas-confetti";
+import "./index.scss";
 // Types
 interface QuestionOption {
   key: string;
@@ -198,6 +200,8 @@ const TankGame: React.FC = () => {
   const fxRef = useRef<SVGGElement>(null);
   const castleRef = useRef<SVGGElement>(null);
   const barrelRef = useRef<SVGGElement>(null);
+
+  const router = useRouter();
 
   // Phico image body for collision detection
   const castleBody: CastleBody = {
@@ -564,6 +568,17 @@ const TankGame: React.FC = () => {
 
   return (
     <div className="tank-game">
+      <IoArrowBackCircle
+        onClick={() => router.push("/")}
+        size={40}
+        style={{
+          position: "absolute",
+          top: "5px",
+          left: "5px",
+          zIndex: 10,
+          cursor: "pointer",
+        }}
+      />
       <div className="container">
         {/* Header */}
         <header className="header">

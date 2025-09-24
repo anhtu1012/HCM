@@ -51,7 +51,7 @@ const HeaderComponent: React.FC<HeaderProps> = () => {
       label: <a href="#services">So sánh & Giá trị thời đại</a>,
     },
     { key: "image", label: <a href="/hcm/image">Kho ảnh</a> },
-    { key: "question", label: <a href="#contact">Câu hỏi</a> },
+    { key: "game", label: <a href="/hcm/game">Trò chơi</a> },
   ];
 
   // Close mobile menu when path changes

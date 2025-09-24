@@ -327,7 +327,7 @@
       "card1_role": "Senior Developer - TechVision Corporation"
     },
     "clientLogosSection": {
-      "title": "Kho tàn hình ảnh",
+      "title": "Kho tàn hình ảnh Hồ Chí Minh",
       "logo_google_alt": "Logo Google",
       "logo_apple_alt": "Logo Apple",
       "logo_microsoft_alt": "Logo Microsoft",
@@ -851,8 +851,8 @@
     }
   },
   "Footer": {
-    "logoAlt": "Logo PATHWAY",
-    "aboutText": "PATHWAY là đơn vị dẫn đầu trong lĩnh vực tư vấn nghề nghiệp, giúp các chuyên gia phát triển sự nghiệp bền vững thông qua các dịch vụ đánh giá CV, tư vấn phỏng vấn và định hướng nghề nghiệp.",
+    "logoAlt": "Logo HCM",
+    "aboutText": "<strong>Tư tưởng Hồ Chí Minh</strong> là kim chỉ nam cho dân tộc Việt Nam trong <strong>cuộc đấu tranh giành độc lập dân tộc và xây dựng đất nước</strong>. Tư tưởng này kết hợp hài hòa giữa chủ nghĩa Mác-Lênin với thực tiễn cách mạng Việt Nam.",
     "socialLabels": {
       "facebook": "Facebook",
       "linkedin": "LinkedIn",
@@ -861,13 +861,13 @@
       "zalo": "Zalo",
       "callNow": "Gọi ngay"
     },
-    "linksServicesTitle": "Dịch vụ",
+    "linksServicesTitle": "Tư tưởng Hồ Chí Minh",
     "serviceLinks": {
-      "cvReview": "Đánh giá CV",
-      "interviewCoaching": "Luyện phỏng vấn",
-      "careerConsulting": "Tư vấn nghề nghiệp",
-      "linkedinOptimization": "Tối ưu LinkedIn",
-      "softSkillsTraining": "Đào tạo kỹ năng mềm"
+      "cvReview": "Tư tưởng về độc lập dân tộc",
+      "interviewCoaching": "Dòng thời gian tư tưởng",
+      "careerConsulting": "So sánh tư tưởng",
+      "linkedinOptimization": "Giá trị hiện đại",
+      "softSkillsTraining": "Nội dung cốt lõi"
     },
     "linksInformationTitle": "Thông tin",
     "informationLinks": {
@@ -898,7 +898,7 @@
       }
     },
     "bottom": {
-      "copyright": "© {currentYear} PATHWAY. Tất cả quyền được bảo lưu.",
+      "copyright": "© {currentYear} ANHTU1012. Tất cả quyền được bảo lưu.",
       "terms": "Điều khoản sử dụng",
       "privacy": "Chính sách bảo mật",
       "cookies": "Cookies"
